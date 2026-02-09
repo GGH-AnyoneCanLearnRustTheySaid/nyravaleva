@@ -8,7 +8,6 @@ export function Navbar() {
     { label: "HOME", href: "/" },
     { label: "ABOUT", href: "/about" },
     { label: "MUSIC & VOICE", href: "/music-voice" },
-    { label: "MEDIA KIT", href: "/media-kit" },
     { label: "CONTACT & BOOKING", href: "/contact" },
   ];
 
