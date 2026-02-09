@@ -9,7 +9,7 @@ export function Navbar() {
     { label: "ABOUT", href: "/about" },
     { label: "MUSIC & VOICE", href: "/music-voice" },
     { label: "MEDIA KIT", href: "/media-kit" },
-    { label: "CONTACT", href: "/contact" },
+    { label: "CONTACT & BOOKING", href: "/contact" },
   ];
 
   return (
