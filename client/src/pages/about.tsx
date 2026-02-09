@@ -42,9 +42,6 @@ export default function About() {
               <p>
                 Her path to the mic began with a love of language, sharpened through a liberal arts degree in English, and a two-year singing scholarship in the United Kingdom that broadened her sound, her perspective, and her artistic ambition. Today, she writes and performs her own music, collaborates with fellow artists, and brings characters to life through voice work for digital content.
               </p>
-              <p>
-                Open, expressive, and genuinely joyful in her craft, she approaches every project with the same goal: make it honest, make it feel something, and make it unforgettable.
-              </p>
             </div>
           </motion.div>
 
