@@ -68,7 +68,7 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="max-w-3xl mx-auto text-center space-y-6 px-4"
           >
-             <p className="text-neutral-400 font-serif italic lowercase text-base md:text-lg leading-relaxed tracking-wide">
+             <p className="text-neutral-400 font-sans italic lowercase text-base md:text-lg leading-relaxed tracking-wide">
                <span className="capitalize">Nyra Vale</span> is a singer, songwriter, and voice artist from texas with a simple philosophy: show up, be real, and sing like you mean it. whether she's in the studio recording original music or voicing characters for digital content, she brings the same thing every time - all of herself.
              </p>
           </motion.div>
