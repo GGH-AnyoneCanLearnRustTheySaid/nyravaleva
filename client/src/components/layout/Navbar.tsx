@@ -5,20 +5,22 @@ export function Navbar() {
   const [location] = useLocation();
 
   const navItems = [
-    { label: "WORK", href: "/" },
+    { label: "HOME", href: "/" },
     { label: "ABOUT", href: "/about" },
+    { label: "MUSIC & VOICE", href: "/music-voice" },
+    { label: "MEDIA KIT", href: "/media-kit" },
     { label: "CONTACT", href: "/contact" },
   ];
 
   return (
     <nav className="fixed top-0 left-0 w-full z-50 px-8 py-8 md:px-12 md:py-10 flex flex-col items-center md:items-start md:flex-row justify-between pointer-events-none">
       {/* Left Nav */}
-      <div className="flex gap-6 md:gap-8 pointer-events-auto order-2 md:order-1 mt-6 md:mt-0">
+      <div className="flex flex-wrap justify-center md:justify-start gap-x-6 gap-y-3 md:gap-8 pointer-events-auto order-2 md:order-1 mt-6 md:mt-0 max-w-[90%] md:max-w-none">
         {navItems.map((item) => (
           <Link key={item.label} href={item.href}>
             <a
               className={cn(
-                "text-[11px] md:text-xs font-sans tracking-[0.2em] uppercase transition-colors duration-300 hover:text-white",
+                "text-[10px] md:text-[11px] font-sans tracking-[0.2em] uppercase transition-colors duration-300 hover:text-white",
                 location === item.href ? "text-white" : "text-neutral-500"
               )}
             >
