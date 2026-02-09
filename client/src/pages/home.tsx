@@ -18,7 +18,7 @@ export default function Home() {
           className="mb-16 md:mb-24 text-center max-w-3xl"
         >
           <h1 className="text-xl md:text-2xl font-display tracking-[0.1em] text-white uppercase mb-8 leading-relaxed">
-            Every word comes alive. <br className="hidden md:block"/> A voice that feels everything.
+            Every word comes alive.
           </h1>
 
           {/* Latest Work Header */}
@@ -72,20 +72,6 @@ export default function Home() {
                <span className="capitalize">Nyra Vale</span> is a singer, songwriter, and voice artist from texas with a simple philosophy: show up, be real, and sing like you mean it. whether she's in the studio recording original music or voicing characters for digital content, she brings the same thing every time - all of herself.
              </p>
           </motion.div>
-
-           {/* Project Item 2 (Placeholder) */}
-           <motion.div 
-            initial={{ opacity: 0, scale: 0.98 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            className="group w-full relative aspect-video bg-neutral-900/50 overflow-hidden cursor-pointer flex items-center justify-center border border-neutral-900"
-          >
-             <div className="text-center">
-               <span className="block text-xs tracking-[0.2em] uppercase text-neutral-700 font-display mb-2">More Work Coming Soon</span>
-             </div>
-          </motion.div>
-
         </div>
 
       </main>
