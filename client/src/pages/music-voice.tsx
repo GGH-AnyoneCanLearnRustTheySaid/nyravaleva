@@ -18,7 +18,7 @@ export default function MusicVoice() {
             Music & Voice
           </h1>
           <p className="text-neutral-500 font-sans tracking-widest uppercase text-xs md:text-sm">
-            Original Compositions • Sound Design • Voice Over
+            Singing • Voice Over
           </p>
         </motion.div>
 
@@ -40,8 +40,8 @@ export default function MusicVoice() {
                 </div>
               </div>
               <div>
-                <h3 className="text-lg font-display text-white tracking-widest uppercase mb-2">Ethereal Landscapes</h3>
-                <p className="text-xs text-neutral-500 font-sans tracking-wide">ORIGINAL COMPOSITION • AMBIENT</p>
+                <h3 className="text-lg font-display text-white tracking-widest uppercase mb-2">Voice Acting</h3>
+                <p className="text-xs text-neutral-500 font-sans tracking-wide">SINGING AUDITION</p>
               </div>
             </motion.div>
 
