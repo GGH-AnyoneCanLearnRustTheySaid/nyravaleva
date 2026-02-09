@@ -1,12 +1,9 @@
-import { useState } from "react";
 import { Navbar } from "@/components/layout/Navbar";
 import { Play } from "lucide-react";
 import { motion } from "framer-motion";
 import filmImage from "@/assets/film-project.png";
 
 export default function Home() {
-  const [activeCategory, setActiveCategory] = useState<"FILM" | "ORIGINAL COMPOSITION">("FILM");
-
   return (
     <div className="min-h-screen bg-background text-foreground selection:bg-white selection:text-black">
       <Navbar />
@@ -24,20 +21,11 @@ export default function Home() {
             Every word comes alive. <br className="hidden md:block"/> A voice that feels everything.
           </h1>
 
-          {/* Category Filter */}
+          {/* Latest Work Header */}
           <div className="flex flex-col gap-2 items-center">
-            <button 
-              onClick={() => setActiveCategory("FILM")}
-              className={`text-[10px] md:text-[11px] font-sans tracking-[0.15em] uppercase transition-all duration-300 ${activeCategory === 'FILM' ? 'text-white' : 'text-neutral-600 hover:text-neutral-400'}`}
-            >
-              Film
-            </button>
-            <button 
-              onClick={() => setActiveCategory("ORIGINAL COMPOSITION")}
-              className={`text-[10px] md:text-[11px] font-sans tracking-[0.15em] uppercase transition-all duration-300 ${activeCategory === 'ORIGINAL COMPOSITION' ? 'text-white' : 'text-neutral-600 hover:text-neutral-400'}`}
-            >
-              Original Composition
-            </button>
+            <span className="text-[10px] md:text-[11px] font-sans tracking-[0.15em] uppercase text-white">
+              Latest Work
+            </span>
           </div>
         </motion.div>
 
