@@ -54,7 +54,7 @@ export default function Contact() {
                Contact & Booking
              </h1>
              <p className="text-neutral-400 font-sans tracking-wide text-sm leading-relaxed">
-               For inquiries regarding original composition, sound design, or collaboration, please use the form or the contact details below.
+               For inquiries regarding music, voice-over, bookings, or collaboration, please use the form or the contact details below.
              </p>
            </div>
 
@@ -65,7 +65,7 @@ export default function Contact() {
              </div>
              <div>
                <h3 className="text-xs font-display text-white tracking-[0.2em] uppercase mb-2">Location</h3>
-               <p className="text-sm text-neutral-400 font-mono">Los Angeles, CA</p>
+               <p className="text-sm text-neutral-400 font-mono">Texas, USA</p>
              </div>
              <div>
                <h3 className="text-xs font-display text-white tracking-[0.2em] uppercase mb-2">Socials</h3>
