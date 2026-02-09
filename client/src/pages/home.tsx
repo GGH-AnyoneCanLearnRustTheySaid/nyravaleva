@@ -21,12 +21,7 @@ export default function Home() {
             Every word comes alive
           </h1>
 
-          {/* Latest Work Header */}
-          <div className="flex flex-col gap-2 items-center">
-            <span className="text-[10px] md:text-[11px] font-sans tracking-[0.15em] uppercase text-white">
-              Latest Work
-            </span>
-          </div>
+          {/* Latest Work Header removed */}
         </motion.div>
 
         {/* Projects Grid */}
