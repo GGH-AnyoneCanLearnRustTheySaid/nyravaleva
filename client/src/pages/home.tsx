@@ -68,10 +68,10 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="max-w-3xl mx-auto text-center space-y-6 px-4"
           >
-             <p className="text-neutral-400 font-serif italic lowercase text-lg md:text-xl leading-relaxed tracking-wide">
+             <p className="text-neutral-400 font-serif italic lowercase text-sm md:text-base leading-relaxed tracking-wide">
                <span className="capitalize">Aliyah</span> is a texas-born singer and voice artist who pours her whole heart into everything she does. from soulful original tracks to bringing characters to life on screen, her voice has a way of making you feel something.
              </p>
-             <p className="text-neutral-400 font-serif italic lowercase text-lg md:text-xl leading-relaxed tracking-wide">
+             <p className="text-neutral-400 font-serif italic lowercase text-sm md:text-base leading-relaxed tracking-wide">
                <span className="capitalize">Aliyah</span> is a singer, songwriter, and voice artist from texas with a simple philosophy: show up, be real, and sing like you mean it. whether she's in the studio recording original music or voicing characters for tv, she brings the same thing every time - all of herself.
              </p>
           </motion.div>
