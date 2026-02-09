@@ -1,5 +1,6 @@
 import { Navbar } from "@/components/layout/Navbar";
 import { motion } from "framer-motion";
+import { Link } from "wouter";
 import portraitImage from "@/assets/about-portrait.png";
 
 export default function About() {
@@ -42,6 +43,17 @@ export default function About() {
               <p>
                 Her path to the mic began with a love of language, sharpened through a liberal arts degree in English, and a two-year singing scholarship in the United Kingdom that broadened her sound, her perspective, and her artistic ambition. Today, she writes and performs her own music, collaborates with fellow artists, and brings characters to life through voice work for digital content.
               </p>
+              
+              <div className="pt-6">
+                <p className="text-white font-display uppercase tracking-widest mb-6 text-sm">
+                  Got a project, a collaboration?
+                </p>
+                <Link href="/contact">
+                  <a className="inline-block border border-neutral-700 px-8 py-4 text-xs font-display uppercase tracking-[0.2em] text-white hover:bg-white hover:text-black transition-colors">
+                    Get in touch →
+                  </a>
+                </Link>
+              </div>
             </div>
           </motion.div>
 
