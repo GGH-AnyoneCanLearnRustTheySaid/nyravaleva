@@ -37,13 +37,13 @@ export default function About() {
             
             <div className="space-y-6 text-neutral-400 font-sans leading-relaxed tracking-wide text-sm md:text-base">
               <p>
-                KB Audio is a boutique sound design and composition studio focused on creating immersive auditory experiences for film, television, and interactive media.
+                Nyra Vale is a singer, songwriter, and voice artist from Texas who believes the best music and the best characters have one thing in common - they tell the truth.
               </p>
               <p>
-                With a background in classical composition and modern electronic synthesis, the work bridges the gap between organic instrumentation and digital textures, crafting soundscapes that are both emotionally resonant and technically precise.
+                Her path to the mic began with a love of language, sharpened through a liberal arts degree in English, and a two-year singing scholarship in the United Kingdom that broadened her sound, her perspective, and her artistic ambition. Today, she writes and performs her own music, collaborates with fellow artists, and brings characters to life through voice work for digital content.
               </p>
               <p>
-                Every project is approached with a unique sonic identity, ensuring that the audio not only supports the visual narrative but elevates it to new heights.
+                Open, expressive, and genuinely joyful in her craft, she approaches every project with the same goal: make it honest, make it feel something, and make it unforgettable.
               </p>
             </div>
           </motion.div>
