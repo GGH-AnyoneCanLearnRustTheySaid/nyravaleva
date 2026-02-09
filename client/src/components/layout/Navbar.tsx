@@ -34,7 +34,7 @@ export function Navbar() {
       <div className="md:absolute md:left-1/2 md:-translate-x-1/2 pointer-events-auto order-1 md:order-2">
         <Link href="/">
           <a className="text-xl md:text-2xl font-display uppercase tracking-[0.15em] text-white hover:opacity-80 transition-opacity">
-            KB Audio
+            ALIYAH
           </a>
         </Link>
       </div>
