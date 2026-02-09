@@ -7,7 +7,7 @@ export function Navbar() {
   const navItems = [
     { label: "HOME", href: "/" },
     { label: "ABOUT", href: "/about" },
-    { label: "MUSIC & VOICE", href: "/music-voice" },
+    { label: "WORK", href: "/work" },
     { label: "CONTACT & BOOKING", href: "/contact" },
   ];
 

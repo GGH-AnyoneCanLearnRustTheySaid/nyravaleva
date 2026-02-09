@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Play, Pause, Mic } from "lucide-react";
 import audioBg from "@/assets/audio-bg.png";
 
-export default function MusicVoice() {
+export default function Work() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <Navbar />
@@ -15,7 +15,7 @@ export default function MusicVoice() {
           className="mb-16 text-center"
         >
           <h1 className="text-2xl md:text-4xl font-display tracking-[0.2em] text-white uppercase mb-4">
-            Music & Voice
+            Work
           </h1>
           <p className="text-neutral-500 font-sans tracking-widest uppercase text-xs md:text-sm">
             Singing • Voice Over
