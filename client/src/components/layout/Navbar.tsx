@@ -1,0 +1,41 @@
+import { Link, useLocation } from "wouter";
+import { cn } from "@/lib/utils";
+
+export function Navbar() {
+  const [location] = useLocation();
+
+  const navItems = [
+    { label: "WORK", href: "/" },
+    { label: "ABOUT", href: "/about" },
+    { label: "CONTACT", href: "/contact" },
+  ];
+
+  return (
+    <nav className="fixed top-0 left-0 w-full z-50 px-8 py-8 md:px-12 md:py-10 flex flex-col items-center md:items-start md:flex-row justify-between pointer-events-none">
+      {/* Left Nav */}
+      <div className="flex gap-6 md:gap-8 pointer-events-auto order-2 md:order-1 mt-6 md:mt-0">
+        {navItems.map((item) => (
+          <Link key={item.label} href={item.href}>
+            <a
+              className={cn(
+                "text-[11px] md:text-xs font-sans tracking-[0.2em] uppercase transition-colors duration-300 hover:text-white",
+                location === item.href ? "text-white" : "text-neutral-500"
+              )}
+            >
+              {item.label}
+            </a>
+          </Link>
+        ))}
+      </div>
+
+      {/* Center Logo - Absolute centered on desktop, relative on mobile */}
+      <div className="md:absolute md:left-1/2 md:-translate-x-1/2 pointer-events-auto order-1 md:order-2">
+        <Link href="/">
+          <a className="text-xl md:text-2xl font-display uppercase tracking-[0.15em] text-white hover:opacity-80 transition-opacity">
+            KB Audio
+          </a>
+        </Link>
+      </div>
+    </nav>
+  );
+}
