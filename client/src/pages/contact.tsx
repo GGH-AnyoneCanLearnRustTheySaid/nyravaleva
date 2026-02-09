@@ -61,7 +61,7 @@ export default function Contact() {
            <div className="space-y-6">
              <div>
                <h3 className="text-xs font-display text-white tracking-[0.2em] uppercase mb-2">Email</h3>
-               <p className="text-sm text-neutral-400 font-mono">hello@kbaudio.com</p>
+               <p className="text-sm text-neutral-400 font-mono">inquiries@nyravale.com</p>
              </div>
              <div>
                <h3 className="text-xs font-display text-white tracking-[0.2em] uppercase mb-2">Location</h3>
