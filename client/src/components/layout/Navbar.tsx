@@ -32,7 +32,7 @@ export function Navbar() {
       {/* Center Logo - Absolute centered on desktop, relative on mobile */}
       <div className="md:absolute md:left-1/2 md:-translate-x-1/2 pointer-events-auto order-1 md:order-2">
         <Link href="/">
-          <a className="text-2xl md:text-3xl font-display uppercase tracking-[0.15em] text-white hover:opacity-80 transition-opacity">
+          <a className="text-3xl md:text-4xl font-display uppercase tracking-[0.15em] text-white hover:opacity-80 transition-opacity">
             NYRA VALE
           </a>
         </Link>
