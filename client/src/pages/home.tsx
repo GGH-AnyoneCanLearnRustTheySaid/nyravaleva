@@ -54,9 +54,9 @@ export default function Home() {
             
             {/* Darkened area for butterfly lower body */}
             <div 
-              className="absolute bottom-[20%] left-1/2 -translate-x-1/2 w-[15%] h-[25%] blur-2xl pointer-events-none opacity-80"
+              className="absolute bottom-[22%] left-1/2 -translate-x-1/2 w-[8%] h-[25%] blur-xl pointer-events-none opacity-100 mix-blend-multiply"
               style={{
-                background: "radial-gradient(ellipse at center, rgba(0,0,0,0.9) 0%, transparent 70%)"
+                background: "radial-gradient(ellipse at center, #000 40%, transparent 80%)"
               }}
             />
           </motion.div>
