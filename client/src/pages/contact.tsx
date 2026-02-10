@@ -80,7 +80,7 @@ export default function Contact() {
                <div className="flex gap-4 flex-wrap">
                  <a href="#" className="text-sm text-neutral-400 hover:text-white transition-colors">Instagram</a>
                  <a href="#" className="text-sm text-neutral-400 hover:text-white transition-colors">Discord</a>
-                 <a href="#" className="text-sm text-neutral-400 hover:text-white transition-colors">X</a>
+                 <a href="https://x.com/a1yorra" target="_blank" rel="noopener noreferrer" className="text-sm text-neutral-400 hover:text-white transition-colors">X</a>
                  <a href="#" className="text-sm text-neutral-400 hover:text-white transition-colors">Casting Call Club</a>
                </div>
              </div>
