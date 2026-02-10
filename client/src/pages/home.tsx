@@ -51,6 +51,14 @@ export default function Home() {
             />
             {/* Box Shadow Overlay for Blended Edges - Reduced opacity to avoid dimming */}
             <div className="absolute inset-0 shadow-[inset_0_0_60px_10px_#0d0d0d] pointer-events-none opacity-30" />
+            
+            {/* Darkened area for butterfly lower body */}
+            <div 
+              className="absolute bottom-[20%] left-1/2 -translate-x-1/2 w-[15%] h-[25%] blur-2xl pointer-events-none opacity-80"
+              style={{
+                background: "radial-gradient(ellipse at center, rgba(0,0,0,0.9) 0%, transparent 70%)"
+              }}
+            />
           </motion.div>
 
           {/* Bio Text */}
