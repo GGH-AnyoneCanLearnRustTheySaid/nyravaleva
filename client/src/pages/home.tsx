@@ -76,7 +76,12 @@ export default function Home() {
                   className="bg-neutral-900/50 border border-neutral-800 p-6 md:p-8 flex flex-col gap-6"
                 >
                   <div className="aspect-video w-full bg-black relative overflow-hidden group cursor-pointer">
-                    <img src={vaReelBg} alt="Waveform" className="w-full h-full object-cover opacity-50 group-hover:opacity-40 transition-opacity" />
+                    <img 
+                      src={vaReelBg} 
+                      alt="Waveform" 
+                      className="w-full h-full object-cover opacity-50 group-hover:opacity-40 transition-opacity" 
+                      style={{ transform: 'scale(0.9)' }}
+                    />
                     <div className="absolute inset-0 flex items-center justify-center">
                       <div className="w-12 h-12 border border-white/20 rounded-full flex items-center justify-center backdrop-blur-sm group-hover:scale-110 transition-transform">
                         <Play className="w-5 h-5 text-white fill-white ml-1" />
