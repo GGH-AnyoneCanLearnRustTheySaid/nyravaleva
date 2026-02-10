@@ -1,6 +1,6 @@
 import { Navbar } from "@/components/layout/Navbar";
 import { motion } from "framer-motion";
-import roseImage from "@/assets/home-rose.jpeg";
+import heroImage from "@/assets/home-butterfly.jpg";
 
 export default function Home() {
   return (
@@ -35,8 +35,8 @@ export default function Home() {
             className="w-full relative aspect-video bg-neutral-900 overflow-hidden"
           >
             <img 
-              src={roseImage} 
-              alt="Artistic Rose" 
+              src={heroImage} 
+              alt="Artistic Butterfly" 
               className="w-full h-full object-cover opacity-80"
             />
           </motion.div>
