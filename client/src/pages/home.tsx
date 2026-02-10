@@ -38,9 +38,9 @@ export default function Home() {
               src={heroImage} 
               alt="Artistic Butterfly" 
               className="w-full h-full object-cover opacity-80"
-              animate={{ scale: [1, 1.05, 1] }}
+              animate={{ scale: [1, 1.03, 1] }}
               transition={{ 
-                duration: 20, 
+                duration: 40, 
                 repeat: Infinity, 
                 ease: "easeInOut" 
               }}
