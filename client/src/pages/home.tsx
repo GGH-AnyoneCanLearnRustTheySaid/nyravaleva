@@ -11,7 +11,7 @@ export default function Home() {
     <div className="min-h-screen bg-background text-foreground selection:bg-white selection:text-black">
       <Navbar />
 
-      <main className="pt-28 pb-20 px-4 md:px-12 flex flex-col items-center min-h-screen">
+      <main className="pt-32 pb-20 px-4 md:px-12 flex flex-col items-center min-h-screen">
         
         {/* Page Title */}
         <motion.div 
