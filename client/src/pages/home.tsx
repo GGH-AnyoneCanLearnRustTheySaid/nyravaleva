@@ -4,6 +4,7 @@ import { Play, Mic } from "lucide-react";
 import heroImage from "@/assets/home-butterfly-new.jpg";
 import audioBg from "@/assets/audio-bg.png";
 import vaReelBg from "@/assets/va-reel-bg-new.jpg";
+import vocalReelBg from "@/assets/vocal-reel-bg.jpg";
 
 export default function Home() {
   return (
@@ -101,9 +102,11 @@ export default function Home() {
                   className="bg-neutral-900/50 border border-neutral-800 p-6 md:p-8 flex flex-col gap-6"
                 >
                   <div className="aspect-video w-full bg-black relative overflow-hidden group cursor-pointer">
-                     <div className="absolute inset-0 bg-neutral-900 flex items-center justify-center">
-                        <Mic className="w-12 h-12 text-neutral-700" />
-                     </div>
+                     <img 
+                       src={vocalReelBg} 
+                       alt="Vocal Talent Reel" 
+                       className="w-full h-full object-cover opacity-50 group-hover:opacity-40 transition-opacity" 
+                     />
                     <div className="absolute inset-0 flex items-center justify-center">
                       <div className="w-12 h-12 border border-white/20 rounded-full flex items-center justify-center backdrop-blur-sm group-hover:scale-110 transition-transform">
                         <Play className="w-5 h-5 text-white fill-white ml-1" />
