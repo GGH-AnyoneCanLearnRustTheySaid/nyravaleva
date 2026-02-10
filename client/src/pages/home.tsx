@@ -32,15 +32,21 @@ export default function Home() {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="w-full relative aspect-video bg-neutral-900 overflow-hidden"
+            className="w-full relative aspect-video bg-[#0d0d0d] overflow-hidden"
           >
             <motion.img 
               src={heroImage} 
               alt="Artistic Butterfly" 
               className="w-full h-full object-cover opacity-80"
+              style={{
+                maskImage: "linear-gradient(to bottom, transparent, black 15%, black 85%, transparent), linear-gradient(to right, transparent, black 15%, black 85%, transparent)",
+                maskComposite: "intersect",
+                WebkitMaskImage: "linear-gradient(to bottom, transparent, black 15%, black 85%, transparent), linear-gradient(to right, transparent, black 15%, black 85%, transparent)",
+                WebkitMaskComposite: "source-in"
+              }}
             />
-            {/* Box Shadow Overlay for Blended Edges */}
-            <div className="absolute inset-0 shadow-[inset_0_0_150px_40px_#0d0d0d] pointer-events-none" />
+            {/* Box Shadow Overlay for Blended Edges - Reduced opacity to avoid dimming */}
+            <div className="absolute inset-0 shadow-[inset_0_0_100px_20px_#0d0d0d] pointer-events-none opacity-50" />
           </motion.div>
 
           {/* Bio Text */}
