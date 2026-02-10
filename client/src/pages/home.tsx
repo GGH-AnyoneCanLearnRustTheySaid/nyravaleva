@@ -65,7 +65,7 @@ export default function Home() {
           </motion.div>
 
           {/* Featured Audio Section - Duplicated from Work Page */}
-          <div className="w-full pt-3">
+          <div className="w-full pt-2">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">
                 {/* Audio Card 1 */}
                 <motion.div 
