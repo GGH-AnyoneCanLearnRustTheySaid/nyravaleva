@@ -46,7 +46,7 @@ export default function Home() {
               }}
             />
             {/* Box Shadow Overlay for Blended Edges */}
-            <div className="absolute inset-0 shadow-[inset_0_0_150px_40px_#0d0d0d] pointer-events-none" />
+            <div className="absolute inset-0 shadow-[inset_0_0_250px_80px_#0d0d0d] pointer-events-none" />
           </motion.div>
 
           {/* Bio Text */}
