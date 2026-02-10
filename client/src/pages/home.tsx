@@ -42,7 +42,7 @@ export default function Home() {
               transition={{ 
                 duration: 20, 
                 repeat: Infinity, 
-                ease: "linear" 
+                ease: "easeInOut" 
               }}
             />
           </motion.div>
