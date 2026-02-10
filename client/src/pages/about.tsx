@@ -21,7 +21,7 @@ export default function About() {
             <img 
               src={portraitImage} 
               alt="Portrait of the artist" 
-              className="w-full h-full object-cover opacity-80"
+              className="w-full h-full object-cover opacity-80 grayscale"
             />
           </motion.div>
 
