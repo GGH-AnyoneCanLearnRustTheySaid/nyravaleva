@@ -38,12 +38,6 @@ export default function Home() {
               src={heroImage} 
               alt="Artistic Butterfly" 
               className="w-full h-full object-cover opacity-80"
-              animate={{ scale: [1, 1.03, 1] }}
-              transition={{ 
-                duration: 40, 
-                repeat: Infinity, 
-                ease: "easeInOut" 
-              }}
             />
             {/* Box Shadow Overlay for Blended Edges */}
             <div className="absolute inset-0 shadow-[inset_0_0_150px_40px_#0d0d0d] pointer-events-none" />
