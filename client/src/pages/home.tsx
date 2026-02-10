@@ -14,9 +14,9 @@ export default function Home() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: "easeOut" }}
-          className="mb-16 md:mb-24 text-center max-w-3xl"
+          className="mb-6 md:mb-10 text-center max-w-3xl"
         >
-          <h1 className="text-xl md:text-2xl font-display tracking-[0.1em] text-white uppercase mb-8 leading-relaxed">
+          <h1 className="text-xl md:text-2xl font-display tracking-[0.1em] text-white uppercase mb-0 leading-relaxed">
             Every word comes alive
           </h1>
 
