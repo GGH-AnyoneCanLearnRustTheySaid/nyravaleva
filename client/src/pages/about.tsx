@@ -1,7 +1,7 @@
 import { Navbar } from "@/components/layout/Navbar";
 import { motion } from "framer-motion";
 import { Link } from "wouter";
-import portraitImage from "@/assets/about-portrait.png";
+import portraitImage from "@/assets/about-aliyah.jpeg";
 
 export default function About() {
   return (
