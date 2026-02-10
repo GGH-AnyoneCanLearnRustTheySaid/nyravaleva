@@ -1,6 +1,6 @@
 import { Navbar } from "@/components/layout/Navbar";
 import { motion } from "framer-motion";
-import heroImage from "@/assets/home-butterfly.jpg";
+import heroImage from "@/assets/home-butterfly-new.jpg";
 
 export default function Home() {
   return (
