@@ -77,18 +77,36 @@ export default function Work() {
               transition={{ delay: 0.1 }}
               className="bg-neutral-900/50 border border-neutral-800 p-6 md:p-8 flex flex-col gap-6"
             >
-              <div className="aspect-video w-full bg-black relative overflow-hidden group cursor-pointer">
-                 <img 
-                   src={vocalReelBg} 
-                   alt="Vocal Talent Reel" 
-                   className="w-full h-full object-cover opacity-50 group-hover:opacity-40 transition-opacity" 
-                 />
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="w-12 h-12 border border-white/20 rounded-full flex items-center justify-center backdrop-blur-sm group-hover:scale-110 transition-transform">
-                    <Play className="w-5 h-5 text-white fill-white ml-1" />
+              <Dialog>
+                <DialogTrigger asChild>
+                  <div className="aspect-video w-full bg-black relative overflow-hidden group cursor-pointer">
+                     <img 
+                       src={vocalReelBg} 
+                       alt="Vocal Talent Reel" 
+                       className="w-full h-full object-cover opacity-50 group-hover:opacity-40 transition-opacity" 
+                     />
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <div className="w-12 h-12 border border-white/20 rounded-full flex items-center justify-center backdrop-blur-sm group-hover:scale-110 transition-transform">
+                        <Play className="w-5 h-5 text-white fill-white ml-1" />
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div>
+                </DialogTrigger>
+                <DialogContent className="sm:max-w-4xl p-0 bg-black border-neutral-800 overflow-hidden">
+                  <div className="aspect-video w-full">
+                    <iframe 
+                      width="100%" 
+                      height="100%" 
+                      src="https://www.youtube.com/embed/86iXw1uWHZs?autoplay=1" 
+                      title="Vocal Talent Reel" 
+                      frameBorder="0" 
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                      allowFullScreen 
+                      className="w-full h-full"
+                    />
+                  </div>
+                </DialogContent>
+              </Dialog>
               <div>
                 <h3 className="text-lg font-display text-white tracking-widest uppercase mb-2">Vocal Talent Reel</h3>
                 <p className="text-xs text-neutral-500 font-sans tracking-wide">AUDITIONS • ACAPELLA</p>
