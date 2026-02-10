@@ -32,7 +32,7 @@ export default function About() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="space-y-8"
           >
-            <h1 className="text-3xl md:text-5xl font-display uppercase tracking-wide text-white">
+            <h1 className="text-2xl md:text-4xl font-display uppercase tracking-[0.2em] text-white">
               About The Artist
             </h1>
             
