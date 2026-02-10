@@ -18,7 +18,7 @@ export default function Work() {
             Work
           </h1>
           <p className="text-neutral-500 font-sans tracking-widest uppercase text-xs md:text-sm">
-            Singing • Voice Over
+            Singing • Songwriting • Voice Over
           </p>
         </motion.div>
 
