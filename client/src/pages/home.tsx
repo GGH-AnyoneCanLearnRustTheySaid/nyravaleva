@@ -45,6 +45,8 @@ export default function Home() {
                 ease: "easeInOut" 
               }}
             />
+            {/* Box Shadow Overlay for Blended Edges */}
+            <div className="absolute inset-0 shadow-[inset_0_0_80px_20px_#0d0d0d] pointer-events-none" />
           </motion.div>
 
           {/* Bio Text */}
