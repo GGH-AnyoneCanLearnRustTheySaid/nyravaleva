@@ -34,10 +34,16 @@ export default function Home() {
             transition={{ duration: 0.8 }}
             className="w-full relative aspect-video bg-neutral-900 overflow-hidden"
           >
-            <img 
+            <motion.img 
               src={heroImage} 
               alt="Artistic Butterfly" 
               className="w-full h-full object-cover opacity-80"
+              animate={{ scale: [1, 1.05, 1] }}
+              transition={{ 
+                duration: 20, 
+                repeat: Infinity, 
+                ease: "linear" 
+              }}
             />
           </motion.div>
 
