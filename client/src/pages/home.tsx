@@ -45,9 +45,6 @@ export default function Home() {
                 ease: "easeInOut" 
               }}
             />
-            {/* Vignette Overlay */}
-            <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_0%,#000000_100%)] pointer-events-none opacity-80" />
-            <div className="absolute inset-0 shadow-[inset_0_0_100px_40px_#000000] pointer-events-none" />
           </motion.div>
 
           {/* Bio Text */}
