@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Play, Mic } from "lucide-react";
 import heroImage from "@/assets/home-butterfly-new.jpg";
 import audioBg from "@/assets/audio-bg.png";
-import vaReelBg from "@/assets/va-reel-bg.jpg";
+import vaReelBg from "@/assets/va-reel-bg-new.jpg";
 
 export default function Home() {
   return (
@@ -80,7 +80,6 @@ export default function Home() {
                       src={vaReelBg} 
                       alt="Waveform" 
                       className="w-full h-full object-cover opacity-50 group-hover:opacity-40 transition-opacity" 
-                      style={{ transform: 'scale(0.9)' }}
                     />
                     <div className="absolute inset-0 flex items-center justify-center">
                       <div className="w-12 h-12 border border-white/20 rounded-full flex items-center justify-center backdrop-blur-sm group-hover:scale-110 transition-transform">
