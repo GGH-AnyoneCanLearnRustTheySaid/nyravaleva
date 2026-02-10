@@ -1,7 +1,6 @@
 import { Navbar } from "@/components/layout/Navbar";
-import { Play } from "lucide-react";
 import { motion } from "framer-motion";
-import filmImage from "@/assets/film-project.png";
+import roseImage from "@/assets/home-rose.jpeg";
 
 export default function Home() {
   return (
@@ -27,32 +26,19 @@ export default function Home() {
         {/* Projects Grid */}
         <div className="w-full max-w-5xl flex flex-col gap-12 md:gap-16">
           
-          {/* Project Item 1 */}
+          {/* Hero Image */}
           <motion.div 
             initial={{ opacity: 0, scale: 0.98 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="group w-full relative aspect-video bg-neutral-900 overflow-hidden cursor-pointer"
+            className="w-full relative aspect-video bg-neutral-900 overflow-hidden"
           >
             <img 
-              src={filmImage} 
-              alt="Film Project" 
-              className="w-full h-full object-cover opacity-80 group-hover:opacity-60 transition-opacity duration-700"
+              src={roseImage} 
+              alt="Artistic Rose" 
+              className="w-full h-full object-cover opacity-80"
             />
-            
-            {/* Play Button Overlay */}
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="w-16 h-16 md:w-20 md:h-20 bg-white rounded-full flex items-center justify-center shadow-2xl transform transition-transform duration-500 group-hover:scale-110">
-                <Play className="w-6 h-6 md:w-8 md:h-8 text-black fill-black ml-1" />
-              </div>
-            </div>
-
-            {/* Hover Info (Optional, fitting the style) */}
-            <div className="absolute bottom-0 left-0 w-full p-6 md:p-8 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex justify-between items-end">
-               <span className="text-xs tracking-[0.2em] uppercase text-white font-display">Beadwork Documentary</span>
-               <span className="text-[10px] tracking-[0.15em] uppercase text-neutral-400 font-sans">2024</span>
-            </div>
           </motion.div>
 
           {/* Bio Text */}
