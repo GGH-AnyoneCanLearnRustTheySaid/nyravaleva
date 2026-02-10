@@ -41,12 +41,12 @@ export default function About() {
                 Nyra Vale is a singer, songwriter, and voice artist from Texas who believes the best music and the best characters have one thing in common - they tell the truth.
               </p>
               <p>
-                Her path to the mic began with a love of language, sharpened through a liberal arts degree in English, and a two-year singing scholarship in the United Kingdom that broadened her sound, her perspective, and her artistic ambition. Today, she writes and performs her own music, collaborates with fellow artists, and brings characters to life through voice work for digital content.
+                Her path to the mic began with a love of language. While living in the UK, she competed as a soprano in orchestras and choirs against US military base schools across Europe, discovering the full power of her voice on stages all over the continent. That competitive fire carried her through a liberal arts degree where she deepened her craft and broadened her artistic vision. Today, she writes and performs her own music, collaborates with fellow artists, and brings characters to life through voice work for digital content.
               </p>
               
               <div className="pt-6">
                 <p className="text-white font-display uppercase tracking-widest mb-6 text-sm">
-                  Got a project, a collaboration?
+                  Got a project, a collaboration? Reach out.
                 </p>
                 <Link href="/contact">
                   <a className="inline-block border border-neutral-700 px-8 py-4 text-xs font-display uppercase tracking-[0.2em] text-white hover:bg-white hover:text-black transition-colors">
