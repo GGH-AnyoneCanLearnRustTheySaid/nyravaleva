@@ -39,7 +39,7 @@ export default function Home() {
             <motion.img 
               src={heroImage} 
               alt="Artistic Butterfly" 
-              className="w-full h-full object-cover opacity-80"
+              className="w-full h-full object-cover opacity-70"
               style={{
                 maskImage: "linear-gradient(to bottom, transparent, black 15%, black 85%, transparent), linear-gradient(to right, transparent, black 15%, black 85%, transparent)",
                 maskComposite: "intersect",
