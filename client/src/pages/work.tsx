@@ -40,8 +40,7 @@ export default function Work() {
                 </div>
               </div>
               <div>
-                <h3 className="text-lg font-display text-white tracking-widest uppercase mb-2">Voice Acting</h3>
-                <p className="text-xs text-neutral-500 font-sans tracking-wide">SINGING AUDITION</p>
+                <h3 className="text-lg font-display text-white tracking-widest uppercase mb-2">VA Demo Reel</h3>
               </div>
             </motion.div>
 
@@ -64,8 +63,8 @@ export default function Work() {
                 </div>
               </div>
               <div>
-                <h3 className="text-lg font-display text-white tracking-widest uppercase mb-2">Commercial Demo Reel</h3>
-                <p className="text-xs text-neutral-500 font-sans tracking-wide">VOICE OVER • NARRATION</p>
+                <h3 className="text-lg font-display text-white tracking-widest uppercase mb-2">Vocal Talent Reel</h3>
+                <p className="text-xs text-neutral-500 font-sans tracking-wide">AUDITIONS • ACAPELLA</p>
               </div>
             </motion.div>
         </div>
