@@ -233,7 +233,7 @@ export default function Home() {
                ))}
                
                <div className="w-full text-center py-6">
-                 <p className="text-neutral-400 font-sans text-sm font-bold italic tracking-wide">
+                 <p className="text-neutral-400 font-sans text-base font-bold italic tracking-wide">
                    Equipped with a professional home studio for fast, high-quality remote recording and delivery.
                  </p>
                </div>
