@@ -17,7 +17,7 @@ export default function MediaKit() {
             Media Kit
           </h1>
           <p className="text-neutral-400 font-sans tracking-wide max-w-xl mx-auto text-sm md:text-base">
-            Download official bios, high-resolution photos, and press assets for KB Audio.
+            Download official bios, high-resolution photos, and press assets for Nyra Vale.
           </p>
         </motion.div>
 

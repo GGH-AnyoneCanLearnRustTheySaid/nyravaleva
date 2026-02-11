@@ -185,7 +185,7 @@ export default function Home() {
 
       <footer className="w-full py-12 text-center">
         <p className="text-[10px] text-neutral-700 tracking-[0.2em] uppercase font-sans">
-          &copy; {new Date().getFullYear()} KB Audio. All Rights Reserved.
+          &copy; {new Date().getFullYear()} Nyra Vale. All Rights Reserved.
         </p>
       </footer>
     </div>
