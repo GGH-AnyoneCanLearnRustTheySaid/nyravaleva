@@ -4,8 +4,7 @@ import { Play, Mic } from "lucide-react";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import heroImage from "@/assets/home-butterfly-outline.png";
 import audioBg from "@/assets/audio-bg.png";
-import vaReelBg from "@/assets/va-reel-bg-new.jpg";
-import vocalReelBg from "@/assets/vocal-reel-bg.jpg";
+import demoReelThumb from "@/assets/demo-reel-thumb.png";
 
 export default function Home() {
   return (
@@ -87,8 +86,8 @@ export default function Home() {
                     <DialogTrigger asChild>
                       <div className="aspect-video w-full bg-black relative overflow-hidden group cursor-pointer">
                         <img 
-                          src={vaReelBg} 
-                          alt="Waveform" 
+                          src={demoReelThumb} 
+                          alt="VA Demo Reel Thumbnail" 
                           className="w-full h-full object-cover opacity-50 group-hover:opacity-40 transition-opacity" 
                         />
                         <div className="absolute inset-0 flex items-center justify-center">
@@ -130,8 +129,8 @@ export default function Home() {
                     <DialogTrigger asChild>
                       <div className="aspect-video w-full bg-black relative overflow-hidden group cursor-pointer">
                         <img 
-                          src={vocalReelBg} 
-                          alt="Vocal Talent Reel" 
+                          src={demoReelThumb} 
+                          alt="Vocal Talent Reel Thumbnail" 
                           className="w-full h-full object-cover opacity-50 group-hover:opacity-40 transition-opacity" 
                         />
                         <div className="absolute inset-0 flex items-center justify-center">
