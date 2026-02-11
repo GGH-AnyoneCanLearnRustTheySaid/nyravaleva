@@ -44,14 +44,12 @@ export default function Home() {
               alt="Artistic Butterfly" 
               className="w-full h-full object-cover opacity-80"
               style={{
-                maskImage: "linear-gradient(to bottom, transparent, black 2%, black 95%, transparent), linear-gradient(to right, transparent, black 15%, black 85%, transparent)",
-                maskComposite: "intersect",
-                WebkitMaskImage: "linear-gradient(to bottom, transparent, black 2%, black 95%, transparent), linear-gradient(to right, transparent, black 15%, black 85%, transparent)",
-                WebkitMaskComposite: "source-in"
+                maskImage: "radial-gradient(ellipse at center, black 40%, transparent 70%)",
+                WebkitMaskImage: "radial-gradient(ellipse at center, black 40%, transparent 70%)"
               }}
             />
             {/* Box Shadow Overlay for Blended Edges - Reduced opacity to avoid dimming */}
-            <div className="absolute inset-0 shadow-[inset_0_0_60px_10px_#0d0d0d] pointer-events-none opacity-30" />
+            <div className="absolute inset-0 shadow-[inset_0_0_100px_40px_#0d0d0d] pointer-events-none opacity-100" />
             
             {/* Darkened area for butterfly lower body */}
             <div 
