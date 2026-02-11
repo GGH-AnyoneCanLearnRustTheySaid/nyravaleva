@@ -126,7 +126,7 @@ export default function Home() {
                     </DialogContent>
                   </Dialog>
                   <div>
-                    <h3 className="text-lg font-display text-white tracking-widest uppercase mb-2">ANIMATION DEMO</h3>
+                    <h3 className="text-lg font-display text-white tracking-widest uppercase mb-2">CHARACTER DEMO</h3>
                   </div>
                 </motion.div>
 
@@ -169,7 +169,7 @@ export default function Home() {
                     </DialogContent>
                   </Dialog>
                   <div>
-                    <h3 className="text-lg font-display text-white tracking-widest uppercase mb-2">ANIMATION SINGING DEMO</h3>
+                    <h3 className="text-lg font-display text-white tracking-widest uppercase mb-2">CHARACTER SINGING DEMO</h3>
                     <p className="text-xs text-neutral-500 font-sans tracking-wide leading-relaxed">Original singing performances for animated characters - bringing melody, emotion, and personality to every role • Trained vocalist + character actor.</p>
                   </div>
                 </motion.div>
