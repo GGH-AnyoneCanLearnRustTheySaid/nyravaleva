@@ -72,6 +72,19 @@ export default function Home() {
              </p>
           </motion.div>
 
+          {/* Sub-heading */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, delay: 0.3 }}
+            className="text-center w-full"
+          >
+            <h2 className="text-sm md:text-base font-display text-white tracking-[0.3em] uppercase">
+              VOICE-OVER <span className="text-neutral-500 mx-3">*</span> SINGING
+            </h2>
+          </motion.div>
+
           {/* Featured Audio Section - Duplicated from Work Page */}
           <div className="w-full pt-2">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">
