@@ -135,6 +135,7 @@ export default function Home() {
                   </Dialog>
                   <div>
                     <h3 className="text-lg font-display text-white tracking-widest uppercase mb-2">CHARACTER DEMO</h3>
+                    <p className="text-xs text-neutral-500 font-sans tracking-wide leading-relaxed">A 90-second showcase of vocal versatility and characterisation</p>
                   </div>
                 </motion.div>
 
