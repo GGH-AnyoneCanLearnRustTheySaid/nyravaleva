@@ -80,10 +80,6 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="text-center w-full mb-12"
           >
-            <p className="text-sm text-neutral-600 font-display tracking-[0.15em] uppercase font-medium mb-12">
-              VOICE-OVER <span className="mx-2 text-neutral-700">•</span> SINGING
-            </p>
-
             <h2 className="text-xl md:text-2xl font-display tracking-[0.1em] text-white uppercase mb-4 leading-relaxed">
               WORK
             </h2>
@@ -202,6 +198,11 @@ export default function Home() {
                     <span className="text-neutral-600 font-mono text-xs">03:4{track}</span>
                  </div>
                ))}
+               <div className="text-center w-full mt-12 mb-8">
+                 <p className="text-sm text-neutral-600 font-display tracking-[0.15em] uppercase font-medium">
+                   VOICE-OVER <span className="mx-2 text-neutral-700">•</span> SINGING
+                 </p>
+               </div>
             </div>
           </div>
         </div>
