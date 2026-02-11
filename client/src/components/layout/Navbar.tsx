@@ -7,7 +7,6 @@ export function Navbar() {
   const navItems = [
     { label: "HOME", href: "/" },
     { label: "ABOUT", href: "/about" },
-    { label: "WORK", href: "/work" },
     { label: "CONTACT & BOOKING", href: "/contact" },
   ];
 
