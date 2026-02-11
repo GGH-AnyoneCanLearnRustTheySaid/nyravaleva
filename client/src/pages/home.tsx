@@ -188,7 +188,7 @@ export default function Home() {
 
             {/* Tracklist */}
             <div className="w-full">
-               <h2 className="text-xl font-display text-white tracking-widest uppercase mb-8 border-b border-neutral-800 pb-4">Original Works</h2>
+               <h2 className="text-xl font-display text-white tracking-widest uppercase mb-8 border-b border-neutral-800 pb-4">VOCAL RANGE - ORIGINAL MUSIC</h2>
                
                {[1, 2, 3, 4].map((track, i) => (
                  <div key={track} className="flex items-center justify-between py-4 border-b border-neutral-800/50 group hover:bg-neutral-900/30 px-4 transition-colors cursor-pointer">
