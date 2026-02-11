@@ -29,7 +29,18 @@ export default function Contact() {
            <div className="space-y-6">
              <div>
                <h3 className="text-xs font-display text-white tracking-[0.2em] uppercase mb-2">Email</h3>
-               <p className="text-sm text-neutral-400 font-mono mb-4">nyravaleva@gmail.com</p>
+               <button 
+                 onClick={() => {
+                   navigator.clipboard.writeText("nyravaleva@gmail.com");
+                   toast({
+                     title: "Email Copied",
+                     description: "Email address copied to clipboard.",
+                   });
+                 }}
+                 className="text-sm text-neutral-400 font-mono mb-4 hover:text-white transition-colors text-left"
+               >
+                 nyravaleva@gmail.com
+               </button>
                <div className="space-y-1">
                  <p className="text-sm text-neutral-400 font-mono">
                    <strong className="text-neutral-300 font-sans uppercase tracking-wider text-xs">Artist Name:</strong> Nyra Vale
