@@ -232,8 +232,8 @@ export default function Home() {
                  </Dialog>
                ))}
                
-               <div className="w-full text-center py-6 border-b border-neutral-800/50">
-                 <p className="text-neutral-500 font-sans text-sm italic tracking-wide">
+               <div className="w-full text-center py-6">
+                 <p className="text-neutral-400 font-sans text-sm font-bold italic tracking-wide">
                    Equipped with a professional home studio for fast, high-quality remote recording and delivery.
                  </p>
                </div>
