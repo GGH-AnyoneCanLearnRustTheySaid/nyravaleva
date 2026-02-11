@@ -191,15 +191,45 @@ export default function Home() {
                <h2 className="text-xl font-display text-white tracking-widest uppercase mb-2">VOCAL RANGE - ORIGINAL MUSIC</h2>
                <p className="text-xs text-neutral-500 font-sans tracking-wide leading-relaxed mb-8 border-b border-neutral-800 pb-4">Written and performed by Nyra Vale (as Alyorra)</p>
                
-               {[1, 2, 3, 4].map((track, i) => (
-                 <div key={track} className="flex items-center justify-between py-4 border-b border-neutral-800/50 group hover:bg-neutral-900/30 px-4 transition-colors cursor-pointer">
-                    <div className="flex items-center gap-4">
-                      <span className="text-neutral-600 font-mono text-xs">0{track}</span>
-                      <Play className="w-3 h-3 text-white opacity-0 group-hover:opacity-100 transition-opacity" />
-                      <span className="text-neutral-300 font-sans tracking-wide text-sm group-hover:text-white transition-colors">Untitled Composition {track}</span>
-                    </div>
-                    <span className="text-neutral-600 font-mono text-xs">03:4{track}</span>
-                 </div>
+               {[
+                 {
+                   id: 1,
+                   title: "Alyorra - A Sailors Story (prod meta)",
+                   duration: "03:41",
+                   url: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1148734273&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+                 },
+                 { id: 2, title: "Untitled Composition 2", duration: "03:42", url: "" },
+                 { id: 3, title: "Untitled Composition 3", duration: "03:43", url: "" },
+                 { id: 4, title: "Untitled Composition 4", duration: "03:44", url: "" },
+               ].map((track, i) => (
+                 <Dialog key={track.id}>
+                   <DialogTrigger asChild>
+                     <div className="flex items-center justify-between py-4 border-b border-neutral-800/50 group hover:bg-neutral-900/30 px-4 transition-colors cursor-pointer">
+                        <div className="flex items-center gap-4">
+                          <span className="text-neutral-600 font-mono text-xs">0{track.id}</span>
+                          <Play className="w-3 h-3 text-white opacity-0 group-hover:opacity-100 transition-opacity" />
+                          <span className="text-neutral-300 font-sans tracking-wide text-sm group-hover:text-white transition-colors">{track.title}</span>
+                        </div>
+                        <span className="text-neutral-600 font-mono text-xs">{track.duration}</span>
+                     </div>
+                   </DialogTrigger>
+                   {track.url && (
+                     <DialogContent className="sm:max-w-4xl p-0 bg-black border-neutral-800 overflow-hidden">
+                       <div className="aspect-video w-full">
+                         <iframe 
+                           width="100%" 
+                           height="100%" 
+                           src={track.url}
+                           title={track.title}
+                           frameBorder="0" 
+                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                           allowFullScreen 
+                           className="w-full h-full"
+                         />
+                       </div>
+                     </DialogContent>
+                   )}
+                 </Dialog>
                ))}
                
                <div className="w-full text-center py-6 border-b border-neutral-800/50">
