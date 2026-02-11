@@ -78,11 +78,24 @@ export default function Home() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.3 }}
-            className="text-center w-full"
+            className="text-center w-full mb-12"
           >
-            <p className="text-sm text-neutral-600 font-display tracking-[0.15em] uppercase font-medium">
+            <p className="text-sm text-neutral-600 font-display tracking-[0.15em] uppercase font-medium mb-12">
               VOICE-OVER <span className="mx-2 text-neutral-700">•</span> SINGING
             </p>
+
+            <h2 className="text-xl md:text-2xl font-display tracking-[0.1em] text-white uppercase mb-4 leading-relaxed">
+              WORK
+            </h2>
+            
+            <p className="text-xs text-neutral-500 font-sans tracking-[0.2em] uppercase mb-4">
+              AVAILABLE FOR
+            </p>
+            
+            <div className="text-neutral-400 font-sans tracking-wide text-xs md:text-sm leading-relaxed space-y-1">
+              <p>Animation · Narration · Commercial · Gaming</p>
+              <p>E-Learning · Podcasts · Audiobooks · Web Content</p>
+            </div>
           </motion.div>
 
           {/* Featured Audio Section - Duplicated from Work Page */}
