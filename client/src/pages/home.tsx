@@ -73,7 +73,7 @@ export default function Home() {
           </motion.div>
 
           {/* Grouped Voice Over Header and Audio Section to control spacing independently of parent gap */}
-          <div className="w-full flex flex-col gap-3">
+          <div className="w-full flex flex-col gap-6">
             {/* Sub-heading */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
