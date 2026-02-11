@@ -72,30 +72,32 @@ export default function Home() {
              </p>
           </motion.div>
 
-          {/* Sub-heading */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8, delay: 0.3 }}
-            className="text-center w-full mb-1.5"
-          >
-            <h2 className="text-xl md:text-2xl font-display tracking-[0.1em] text-white uppercase mb-4 leading-relaxed">
-              VOICE OVER
-            </h2>
-            
-            <p className="text-xs text-neutral-500 font-sans tracking-[0.2em] uppercase mb-4">
-              AVAILABLE FOR
-            </p>
-            
-            <div className="text-neutral-400 font-sans tracking-wide text-xs md:text-sm leading-relaxed space-y-1">
-              <p>Animation · Gaming · Narration · Audiobooks</p>
-            </div>
-          </motion.div>
+          {/* Grouped Voice Over Header and Audio Section to control spacing independently of parent gap */}
+          <div className="w-full flex flex-col gap-2">
+            {/* Sub-heading */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: 0.3 }}
+              className="text-center w-full"
+            >
+              <h2 className="text-xl md:text-2xl font-display tracking-[0.1em] text-white uppercase mb-4 leading-relaxed">
+                VOICE OVER
+              </h2>
+              
+              <p className="text-xs text-neutral-500 font-sans tracking-[0.2em] uppercase mb-4">
+                AVAILABLE FOR
+              </p>
+              
+              <div className="text-neutral-400 font-sans tracking-wide text-xs md:text-sm leading-relaxed space-y-1">
+                <p>Animation · Gaming · Narration · Audiobooks</p>
+              </div>
+            </motion.div>
 
-          {/* Featured Audio Section - Duplicated from Work Page */}
-          <div className="w-full pt-2">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">
+            {/* Featured Audio Section - Duplicated from Work Page */}
+            <div className="w-full">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">
                 {/* Audio Card 1 */}
                 <motion.div 
                   initial={{ opacity: 0, y: 20 }}
@@ -204,6 +206,7 @@ export default function Home() {
                  </p>
                </div>
             </div>
+          </div>
           </div>
         </div>
 
