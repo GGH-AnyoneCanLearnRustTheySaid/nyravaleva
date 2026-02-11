@@ -200,6 +200,13 @@ export default function Home() {
                     <span className="text-neutral-600 font-mono text-xs">03:4{track}</span>
                  </div>
                ))}
+               
+               <div className="w-full text-center py-6 border-b border-neutral-800/50">
+                 <p className="text-neutral-500 font-sans text-sm italic tracking-wide">
+                   Equipped with a professional home studio for fast, high-quality remote recording and delivery.
+                 </p>
+               </div>
+
                <div className="text-center w-full mt-12 mb-8">
                  <p className="text-sm text-neutral-600 font-display tracking-[0.15em] uppercase font-medium">
                    VOICE-OVER <span className="mx-2 text-neutral-700">•</span> SINGING
