@@ -196,7 +196,7 @@ export default function Home() {
                    id: 1,
                    title: "Alyorra - A Sailors Story (prod meta)",
                    duration: "03:41",
-                   url: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1148734273&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+                   url: "https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/alyorra/a-sailors-story-prod-meta&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
                  },
                  { id: 2, title: "Untitled Composition 2", duration: "03:42", url: "" },
                  { id: 3, title: "Untitled Composition 3", duration: "03:43", url: "" },
