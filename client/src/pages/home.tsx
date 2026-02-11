@@ -80,8 +80,8 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="text-center w-full"
           >
-            <p className="text-xs text-neutral-500 font-sans tracking-[0.2em] uppercase">
-              VOICE-OVER <span className="mx-2">*</span> SINGING
+            <p className="text-sm text-neutral-600 font-display tracking-[0.15em] uppercase font-medium">
+              VOICE-OVER <span className="mx-2 text-neutral-700">•</span> SINGING
             </p>
           </motion.div>
 
