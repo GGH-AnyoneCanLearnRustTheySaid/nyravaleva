@@ -240,7 +240,7 @@ export default function Home() {
 
                <div className="text-center w-full mt-12 mb-8">
                  <p className="text-3xl text-neutral-600 font-display tracking-[0.15em] uppercase font-medium">
-                   VOICE-OVER <span className="mx-2 text-neutral-700">•</span> SINGING
+                   SINGER <span className="mx-2 text-neutral-700">•</span> VOICE ARTIST <span className="mx-2 text-neutral-700">•</span> SONGWRITER
                  </p>
                </div>
             </div>
