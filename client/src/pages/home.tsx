@@ -96,7 +96,7 @@ export default function Home() {
               transition={{ duration: 0.8, delay: 0.3 }}
               className="text-center w-full"
             >
-              <h2 className="text-xl md:text-2xl font-display tracking-[0.1em] text-white uppercase mb-4 leading-relaxed">
+              <h2 className="text-[22px] md:text-[26.4px] font-display tracking-[0.1em] text-white uppercase mb-4 leading-relaxed">
                 VOICE OVER
               </h2>
               
