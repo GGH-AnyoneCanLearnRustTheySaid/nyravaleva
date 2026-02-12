@@ -46,6 +46,9 @@ export default function About() {
               <p>
                 Today, she writes and performs her own music, collaborates with fellow artists, and brings characters to life for digital content - combining trained vocal ability with expressive voice acting and voice modulation.
               </p>
+              <p>
+                Nyra Vale is a singer, songwriter, and voice artist from Texas with a simple philosophy: show up, be real, and sing like you mean it. Whether she's in the studio recording original music or voicing characters for digital content, she brings the same thing every time - all of herself.
+              </p>
               
               <div className="pt-6">
                 <p className="text-white font-display uppercase tracking-widest mb-6 text-sm">
