@@ -21,7 +21,7 @@ export default function Home() {
           className="text-center w-full mb-8 md:mb-10"
         >
           <p className="text-xl md:text-3xl text-neutral-500 font-display tracking-[0.15em] uppercase font-medium">
-            SINGER <span className="mx-2 text-neutral-700">•</span> VOICE ARTIST <span className="mx-2 text-neutral-700">•</span> SONGWRITER
+            SINGER <span className="mx-1 text-neutral-700">•</span> VOICE ARTIST <span className="mx-1 text-neutral-700">•</span> SONGWRITER
           </p>
         </motion.div>
 
