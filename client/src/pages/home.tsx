@@ -207,7 +207,7 @@ export default function Home() {
                 Got a project, a collaboration? Reach out.
               </p>
               <Link href="/contact">
-                <a className="inline-block border border-neutral-700 px-8 py-4 text-[12.6px] font-display uppercase tracking-[0.2em] text-white hover:bg-white hover:text-black transition-colors">
+                <a className="inline-block border border-white bg-white px-8 py-4 text-[12.6px] font-display uppercase tracking-[0.2em] text-black hover:bg-black hover:text-white transition-colors">
                   Get in touch →
                 </a>
               </Link>
