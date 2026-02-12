@@ -81,7 +81,7 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="max-w-3xl mx-auto text-center space-y-6 px-4"
           >
-            <p className="text-neutral-400 font-sans italic text-[18.8px] md:text-[22.6px] leading-relaxed tracking-wide">
+            <p className="text-neutral-400 font-sans text-[18.8px] md:text-[22.6px] leading-relaxed tracking-wide">
                Combining trained vocal ability with expressive voice acting and voice modulation.
              </p>
           </motion.div>
