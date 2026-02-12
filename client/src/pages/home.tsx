@@ -13,6 +13,18 @@ export default function Home() {
 
       <main className="pt-32 pb-20 px-4 md:px-12 flex flex-col items-center min-h-screen">
         
+        {/* SINGER • VOICE ARTIST • SONGWRITER moved here */}
+        <motion.div 
+          initial={{ opacity: 0, y: -10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.1 }}
+          className="text-center w-full mb-8 md:mb-10"
+        >
+          <p className="text-xl md:text-3xl text-neutral-500 font-display tracking-[0.15em] uppercase font-medium">
+            SINGER <span className="mx-2 text-neutral-700">•</span> VOICE ARTIST <span className="mx-2 text-neutral-700">•</span> SONGWRITER
+          </p>
+        </motion.div>
+
         {/* Page Title */}
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
@@ -238,11 +250,6 @@ export default function Home() {
                  </p>
                </div>
 
-               <div className="text-center w-full mt-12 mb-8">
-                 <p className="text-3xl text-neutral-600 font-display tracking-[0.15em] uppercase font-medium">
-                   SINGER <span className="mx-2 text-neutral-700">•</span> VOICE ARTIST <span className="mx-2 text-neutral-700">•</span> SONGWRITER
-                 </p>
-               </div>
             </div>
           </div>
           </div>
