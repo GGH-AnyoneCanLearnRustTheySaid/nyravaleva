@@ -5,6 +5,7 @@ import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import heroImage from "@/assets/home-butterfly-outline.png";
 import audioBg from "@/assets/audio-bg.png";
 import demoReelThumb from "@/assets/demo-reel-thumb.png";
+import { AudioPlayer } from "@/components/ui/AudioPlayer";
 
 export default function Home() {
   return (
@@ -196,51 +197,38 @@ export default function Home() {
                    id: 1,
                    title: "Alyorra - A Sailors Story (prod meta)",
                    duration: "03:41",
-                   url: "https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/alyorra/a-sailors-story-prod-meta&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+                   file: "/audio/sailors-story.wav"
                  },
-                 { id: 2, title: "Alyorra - Believe Me (prod.violet)", duration: "03:42", url: "https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/alyorra/believe-me-prod-violet&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" },
-                 { id: 3, title: "Alyorra - Ocean (prod.violet)", duration: "03:43", url: "https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/alyorra/ocean-prod-violet&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" },
-                 { id: 4, title: "Alyorra - Winter (prod. bstrxy)", duration: "03:44", url: "https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/alyorra/winter-prod-bstrxy/s-2jVbCTAHFFJ%3Fsi%3D1c6517c345d24b98b5603185de1de2a7&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" },
-               ].map((track, i) => (
-                 <Dialog key={track.id}>
-                   <DialogTrigger asChild>
-                     <div className="flex items-center justify-between py-4 border-b border-neutral-800/50 group hover:bg-neutral-900/30 px-4 transition-colors cursor-pointer">
-                        <div className="flex items-center gap-4">
-                          <span className="text-neutral-600 font-mono text-xs">0{track.id}</span>
-                          <Play className="w-3 h-3 text-white opacity-0 group-hover:opacity-100 transition-opacity" />
-                          <span className="text-neutral-300 font-sans tracking-wide text-sm group-hover:text-white transition-colors">{track.title}</span>
-                        </div>
-                        <span className="text-neutral-600 font-mono text-xs">{track.duration}</span>
-                     </div>
-                   </DialogTrigger>
-                   {track.url && (
-                     <DialogContent className="sm:max-w-4xl p-0 bg-black border-neutral-800 overflow-hidden">
-                       <div className="aspect-video w-full">
-                         <iframe 
-                           width="100%" 
-                           height="100%" 
-                           src={track.url}
-                           title={track.title}
-                           frameBorder="0" 
-                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                           allowFullScreen 
-                           className="w-full h-full"
+                 { id: 2, title: "Alyorra - Believe Me (prod.violet)", duration: "03:42", file: "/audio/believe-me.wav" },
+                 { id: 3, title: "Alyorra - Ocean (prod.violet)", duration: "03:43", file: "/audio/ocean.wav" },
+                 { id: 4, title: "Alyorra - Winter (prod. bstrxy)", duration: "03:44", file: "/audio/winter.wav" },
+               ].map((track) => (
+                 <div key={track.id} className="mb-4 last:mb-0">
+                    <Dialog>
+                      <DialogTrigger asChild>
+                         <div className="flex items-center justify-between py-4 border-b border-neutral-800/50 group hover:bg-neutral-900/30 px-4 transition-colors cursor-pointer">
+                            <div className="flex items-center gap-4">
+                              <span className="text-neutral-600 font-mono text-xs">0{track.id}</span>
+                              <Play className="w-3 h-3 text-white opacity-0 group-hover:opacity-100 transition-opacity" />
+                              <span className="text-neutral-300 font-sans tracking-wide text-sm group-hover:text-white transition-colors">{track.title}</span>
+                            </div>
+                            <span className="text-neutral-600 font-mono text-xs">{track.duration}</span>
+                         </div>
+                      </DialogTrigger>
+                       <DialogContent className="sm:max-w-xl p-0 bg-transparent border-none shadow-none">
+                         <AudioPlayer 
+                            src={track.file} 
+                            title={track.title} 
+                            className="bg-black border border-neutral-800 shadow-2xl"
                          />
-                       </div>
-                     </DialogContent>
-                   )}
-                 </Dialog>
+                       </DialogContent>
+                    </Dialog>
+                 </div>
                ))}
                
                <div className="w-full text-center py-6">
                  <p className="text-neutral-400 font-sans text-base font-bold italic tracking-wide">
                    Equipped with a professional home studio for fast, high-quality remote recording and delivery.
-                 </p>
-               </div>
-
-               <div className="text-center w-full mt-12 mb-8">
-                 <p className="text-sm text-neutral-600 font-display tracking-[0.15em] uppercase font-medium">
-                   VOICE-OVER <span className="mx-2 text-neutral-700">•</span> SINGING
                  </p>
                </div>
             </div>
