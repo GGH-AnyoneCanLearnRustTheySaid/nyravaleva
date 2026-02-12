@@ -224,11 +224,11 @@ export default function Home() {
                    id: 1,
                    title: "Alyorra - A Sailors Story (prod meta)",
                    duration: "03:41",
-                   file: "/audio/track1.wav" // Placeholder filename
+                   file: "/audio/sailors-story.wav"
                  },
-                 { id: 2, title: "Alyorra - Believe Me (prod.violet)", duration: "03:42", file: "/audio/track2.wav" },
-                 { id: 3, title: "Alyorra - Ocean (prod.violet)", duration: "03:43", file: "/audio/track3.wav" },
-                 { id: 4, title: "Alyorra - Winter (prod. bstrxy)", duration: "03:44", file: "/audio/track4.wav" },
+                 { id: 2, title: "Alyorra - Believe Me (prod.violet)", duration: "03:42", file: "/audio/believe-me.wav" },
+                 { id: 3, title: "Alyorra - Ocean (prod.violet)", duration: "03:43", file: "/audio/ocean.wav" },
+                 { id: 4, title: "Alyorra - Winter (prod. bstrxy)", duration: "03:44", file: "/audio/winter.wav" },
                ].map((track) => (
                  <div key={track.id} className="mb-4 last:mb-0">
                     <Dialog>
