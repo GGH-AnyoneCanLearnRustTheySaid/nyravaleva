@@ -22,7 +22,7 @@ export default function Contact() {
                Contact & Booking
              </h1>
              <p className="text-neutral-400 font-sans tracking-wide text-sm leading-relaxed max-w-2xl">
-               For inquiries regarding music, voice-over, bookings, or collaboration, please reach out via the contact details below.
+               For inquiries regarding music, voice-over, bookings, or collaboration, please reach out!
              </p>
            </div>
 
