@@ -128,8 +128,8 @@ export default function Home() {
                           className="w-full h-full object-cover opacity-50 group-hover:opacity-40 transition-opacity" 
                         />
                         <div className="absolute inset-0 flex items-center justify-center">
-                          <div className="w-12 h-12 border border-white/20 rounded-full flex items-center justify-center backdrop-blur-sm group-hover:scale-110 transition-transform">
-                            <Play className="w-5 h-5 text-white fill-white ml-1" />
+                          <div className="w-[72px] h-[72px] border border-white/20 rounded-full flex items-center justify-center backdrop-blur-sm group-hover:scale-110 transition-transform">
+                            <Play className="w-[30px] h-[30px] text-white fill-white ml-1" />
                           </div>
                         </div>
                       </div>
@@ -172,8 +172,8 @@ export default function Home() {
                           className="w-full h-full object-cover opacity-50 group-hover:opacity-40 transition-opacity" 
                         />
                         <div className="absolute inset-0 flex items-center justify-center">
-                          <div className="w-12 h-12 border border-white/20 rounded-full flex items-center justify-center backdrop-blur-sm group-hover:scale-110 transition-transform">
-                            <Play className="w-5 h-5 text-white fill-white ml-1" />
+                          <div className="w-[72px] h-[72px] border border-white/20 rounded-full flex items-center justify-center backdrop-blur-sm group-hover:scale-110 transition-transform">
+                            <Play className="w-[30px] h-[30px] text-white fill-white ml-1" />
                           </div>
                         </div>
                       </div>
