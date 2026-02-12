@@ -200,7 +200,7 @@ export default function Home() {
                  },
                  { id: 2, title: "Alyorra - Believe Me (prod.violet)", duration: "03:42", url: "https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/alyorra/believe-me-prod-violet&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" },
                  { id: 3, title: "Alyorra - Ocean (prod.violet)", duration: "03:43", url: "https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/alyorra/ocean-prod-violet&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" },
-                 { id: 4, title: "Alyorra - Winter (prod. bstrxy)", duration: "03:44", url: "https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/alyorra/winter-prod-bstrxy/s-2jVbCTAHFFJ&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" },
+                 { id: 4, title: "Alyorra - Winter (prod. bstrxy)", duration: "03:44", url: "https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/alyorra/winter-prod-bstrxy/s-2jVbCTAHFFJ%3Fsi%3D1c6517c345d24b98b5603185de1de2a7&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" },
                ].map((track, i) => (
                  <Dialog key={track.id}>
                    <DialogTrigger asChild>
