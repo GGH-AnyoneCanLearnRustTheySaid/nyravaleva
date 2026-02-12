@@ -25,19 +25,7 @@ export default function Home() {
           </p>
         </motion.div>
 
-        {/* Page Title */}
-        <motion.div 
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, ease: "easeOut" }}
-          className="mb-6 md:mb-8 text-center max-w-3xl"
-        >
-          <h1 className="text-xl md:text-2xl font-display tracking-[0.1em] text-white uppercase mb-0 leading-relaxed">
-            Every word comes alive
-          </h1>
-
-          {/* Latest Work Header removed */}
-        </motion.div>
+        {/* Page Title removed from here */}
 
         {/* Projects Grid */}
         <div className="w-full max-w-5xl flex flex-col gap-12 md:gap-16">
@@ -69,6 +57,19 @@ export default function Home() {
                 background: "radial-gradient(ellipse at center, rgba(0,0,0,0.9) 0%, transparent 70%)"
               }}
             />
+          </motion.div>
+
+          {/* Page Title moved here */}
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, ease: "easeOut", delay: 0.1 }}
+            className="mb-0 md:mb-2 text-center max-w-3xl mx-auto"
+          >
+            <h1 className="text-xl md:text-2xl font-display tracking-[0.1em] text-white uppercase mb-0 leading-relaxed">
+              Every word comes alive
+            </h1>
           </motion.div>
 
           {/* Bio Text */}
