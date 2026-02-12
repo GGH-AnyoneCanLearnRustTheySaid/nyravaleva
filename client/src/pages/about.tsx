@@ -50,16 +50,6 @@ export default function About() {
                 Nyra Vale is a singer, songwriter, and voice artist from Texas with a simple philosophy: show up, be real, and sing like you mean it. Whether she's in the studio recording original music or voicing characters for digital content, she brings the same thing every time - all of herself.
               </p>
               
-              <div className="pt-6">
-                <p className="text-white font-display uppercase tracking-widest mb-6 text-sm">
-                  Got a project, a collaboration? Reach out.
-                </p>
-                <Link href="/contact">
-                  <a className="inline-block border border-neutral-700 px-8 py-4 text-xs font-display uppercase tracking-[0.2em] text-white hover:bg-white hover:text-black transition-colors">
-                    Get in touch →
-                  </a>
-                </Link>
-              </div>
             </div>
           </motion.div>
 

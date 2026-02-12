@@ -1,4 +1,5 @@
 import { Navbar } from "@/components/layout/Navbar";
+import { Link } from "wouter";
 import { motion } from "framer-motion";
 import { Play, Mic } from "lucide-react";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
@@ -197,6 +198,18 @@ export default function Home() {
                     <p className="text-sm text-neutral-500 font-sans tracking-wide leading-relaxed">Original singing performance for fan musical - bringing melody, emotion, and personality to every role • Trained vocalist, character actor.</p>
                   </div>
                 </motion.div>
+            </div>
+
+            {/* CTA Section */}
+            <div className="w-full text-center py-10">
+              <p className="text-white font-display uppercase tracking-widest mb-6 text-sm">
+                Got a project, a collaboration? Reach out.
+              </p>
+              <Link href="/contact">
+                <a className="inline-block border border-neutral-700 px-8 py-4 text-xs font-display uppercase tracking-[0.2em] text-white hover:bg-white hover:text-black transition-colors">
+                  Get in touch →
+                </a>
+              </Link>
             </div>
 
             {/* Tracklist */}
