@@ -79,9 +79,9 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="max-w-3xl mx-auto text-center space-y-6 px-4"
+              className="w-full max-w-5xl mx-auto text-center space-y-6 px-4"
             >
-              <p className="text-neutral-400 font-sans text-[17.9px] md:text-[21.5px] leading-relaxed tracking-wide">
+              <p className="text-neutral-400 font-sans text-[17.9px] md:text-[21.5px] leading-relaxed tracking-wide md:whitespace-nowrap">
                  Combining trained vocal ability with expressive voice acting and voice modulation.
                </p>
             </motion.div>
