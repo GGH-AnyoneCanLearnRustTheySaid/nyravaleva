@@ -60,31 +60,32 @@ export default function Home() {
             />
           </motion.div>
 
-          {/* Page Title moved here */}
-          <motion.div 
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, ease: "easeOut", delay: 0.1 }}
-            className="mb-0 md:mb-2 text-center max-w-3xl mx-auto"
-          >
-            <h1 className="text-xl md:text-2xl font-display tracking-[0.1em] text-white uppercase mb-0 leading-relaxed">
-              Every word comes alive
-            </h1>
-          </motion.div>
+          {/* Page Title & Bio Text Grouped */}
+          <div className="flex flex-col gap-3 md:gap-4">
+            <motion.div 
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, ease: "easeOut", delay: 0.1 }}
+              className="mb-0 text-center max-w-3xl mx-auto"
+            >
+              <h1 className="text-xl md:text-2xl font-display tracking-[0.1em] text-white uppercase mb-0 leading-relaxed">
+                Every word comes alive
+              </h1>
+            </motion.div>
 
-          {/* Bio Text */}
-          <motion.div 
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            className="max-w-3xl mx-auto text-center space-y-6 px-4"
-          >
-            <p className="text-neutral-400 font-sans italic text-[18.8px] md:text-[22.6px] leading-relaxed tracking-wide">
-               Combining trained vocal ability with expressive voice acting and voice modulation.
-             </p>
-          </motion.div>
+            <motion.div 
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+              className="max-w-3xl mx-auto text-center space-y-6 px-4"
+            >
+              <p className="text-neutral-400 font-sans italic text-[18.8px] md:text-[22.6px] leading-relaxed tracking-wide">
+                 Combining trained vocal ability with expressive voice acting and voice modulation.
+               </p>
+            </motion.div>
+          </div>
 
           {/* Grouped Voice Over Header and Audio Section to control spacing independently of parent gap */}
           <div className="w-full flex flex-col gap-6">
