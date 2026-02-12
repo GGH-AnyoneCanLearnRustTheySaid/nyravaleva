@@ -105,7 +105,7 @@ export default function Home() {
                 AVAILABLE FOR
               </p>
               
-              <div className="text-neutral-400 font-sans tracking-wide text-xs md:text-sm leading-relaxed space-y-1">
+              <div className="text-neutral-400 font-sans tracking-wide text-[12.6px] md:text-[14.7px] leading-relaxed space-y-1">
                 <p>Animation · Gaming · Musicals · Narration · Audiobooks</p>
               </div>
             </motion.div>
