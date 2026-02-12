@@ -149,7 +149,7 @@ export default function Home() {
                       </div>
                     </DialogContent>
                   </Dialog>
-                  <div>
+                  <div className="text-center">
                     <h3 className="text-lg font-display text-white tracking-widest uppercase mb-2">CHARACTER DEMO</h3>
                     <p className="text-sm text-neutral-500 font-sans tracking-wide leading-relaxed">A 90-second showcase of vocal versatility and characterisation</p>
                   </div>
