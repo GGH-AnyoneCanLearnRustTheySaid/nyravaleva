@@ -41,7 +41,10 @@ export default function About() {
                 Nyra Vale is a singer, songwriter, and voice artist from Texas who believes the best music and the best characters have one thing in common - they tell the truth.
               </p>
               <p>
-                Her path to the mic began with a love of language. While living in the UK, she competed as a soprano in orchestras and choirs against US military base schools across Europe, discovering the full power of her voice on stages all over the continent. That competitive fire carried her through a liberal arts degree where she deepened her craft and broadened her artistic vision. Today, she writes and performs her own music, collaborates with fellow artists, and brings characters to life through voice work for digital content.
+                Her path to the mic began with a love of language. While living in the UK, she competed as a soprano in orchestras and choirs against US military base schools across Europe, discovering the full power of her voice on stages all over the continent. That competitive fire carried her through a liberal arts degree where she deepened her craft and broadened her artistic vision.
+              </p>
+              <p>
+                Today, she writes and performs her own music, collaborates with fellow artists, and brings characters to life for digital content - combining trained vocal ability with expressive voice acting and voice modulation.
               </p>
               
               <div className="pt-6">
