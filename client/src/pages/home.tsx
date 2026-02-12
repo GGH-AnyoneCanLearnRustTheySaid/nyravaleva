@@ -202,7 +202,7 @@ export default function Home() {
             {/* Tracklist */}
             <div className="w-full">
                <h2 className="text-xl font-display text-white tracking-widest uppercase mb-2">VOCAL RANGE - ORIGINAL MUSIC</h2>
-               <p className="text-xs text-neutral-500 font-sans tracking-wide leading-relaxed mb-8 border-b border-neutral-800 pb-4">Written and performed by Nyra Vale (as Alyorra)</p>
+               <p className="text-sm text-neutral-500 font-sans tracking-wide leading-relaxed mb-8 border-b border-neutral-800 pb-4">Written and performed by Nyra Vale (as Alyorra)</p>
                
                {[
                  {
