@@ -18,7 +18,7 @@ export function Navbar() {
           <Link key={item.label} href={item.href}>
             <a
               className={cn(
-                "text-lg md:text-xl font-sans tracking-[0.2em] uppercase transition-colors duration-300 hover:text-white",
+                "text-[10px] md:text-[11px] font-sans tracking-[0.2em] uppercase transition-colors duration-300 hover:text-white",
                 location === item.href ? "text-white" : "text-neutral-500"
               )}
             >
