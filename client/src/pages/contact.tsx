@@ -21,7 +21,7 @@ export default function Contact() {
              <h1 className="text-2xl md:text-3xl font-display uppercase tracking-wide text-white mb-6">
                Contact & Booking
              </h1>
-             <p className="text-neutral-400 font-sans tracking-wide text-sm leading-relaxed max-w-2xl">
+             <p className="text-neutral-400 font-sans tracking-wide text-base leading-relaxed max-w-2xl">
                For inquiries regarding music, voice-over, bookings, or collaboration, please reach out!
              </p>
            </div>
