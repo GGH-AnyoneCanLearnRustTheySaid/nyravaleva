@@ -91,7 +91,7 @@ export default function Home() {
               </p>
               
               <div className="text-neutral-400 font-sans tracking-wide text-xs md:text-sm leading-relaxed space-y-1">
-                <p>Animation · Gaming · Narration · Audiobooks</p>
+                <p>Animation · Gaming · Musicals · Narration · Audiobooks</p>
               </div>
             </motion.div>
 
