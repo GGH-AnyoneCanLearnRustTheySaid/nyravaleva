@@ -150,7 +150,7 @@ export default function Home() {
                     </DialogContent>
                   </Dialog>
                   <div className="text-center">
-                    <h3 className="text-lg font-display text-white tracking-widest uppercase mb-2">CHARACTER DEMO</h3>
+                    <h3 className="text-[19.8px] font-display text-white tracking-widest uppercase mb-2">CHARACTER DEMO</h3>
                     <p className="text-sm text-neutral-500 font-sans tracking-wide leading-relaxed">A 90-second showcase of vocal versatility and characterisation</p>
                   </div>
                 </motion.div>
@@ -194,7 +194,7 @@ export default function Home() {
                     </DialogContent>
                   </Dialog>
                   <div className="text-center">
-                    <h3 className="text-lg font-display text-white tracking-widest uppercase mb-2">VOCAL DEMO</h3>
+                    <h3 className="text-[19.8px] font-display text-white tracking-widest uppercase mb-2">VOCAL DEMO</h3>
                     <p className="text-sm text-neutral-500 font-sans tracking-wide leading-relaxed">Original singing performance for fan musical - bringing melody, emotion, and personality to every role • Trained vocalist, character actor.</p>
                   </div>
                 </motion.div>
