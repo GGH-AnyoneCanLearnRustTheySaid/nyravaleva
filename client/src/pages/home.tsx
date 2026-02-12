@@ -203,11 +203,11 @@ export default function Home() {
 
             {/* CTA Section */}
             <div className="w-full text-center py-10">
-              <p className="text-white font-display uppercase tracking-widest mb-6 text-sm">
+              <p className="text-white font-display uppercase tracking-widest mb-6 text-[14.7px]">
                 Got a project, a collaboration? Reach out.
               </p>
               <Link href="/contact">
-                <a className="inline-block border border-neutral-700 px-8 py-4 text-xs font-display uppercase tracking-[0.2em] text-white hover:bg-white hover:text-black transition-colors">
+                <a className="inline-block border border-neutral-700 px-8 py-4 text-[12.6px] font-display uppercase tracking-[0.2em] text-white hover:bg-white hover:text-black transition-colors">
                   Get in touch →
                 </a>
               </Link>
