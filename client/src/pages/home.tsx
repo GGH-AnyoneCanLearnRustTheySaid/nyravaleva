@@ -111,7 +111,7 @@ export default function Home() {
 
             {/* Featured Audio Section - Duplicated from Work Page */}
             <div className="w-full">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
                 {/* Audio Card 1 */}
                 <motion.div 
                   initial={{ opacity: 0, y: 20 }}
