@@ -199,7 +199,7 @@ export default function Home() {
                    duration: "02:03",
                    file: "/audio/sailors-story.wav"
                  },
-                 { id: 2, title: "Alyorra - Believe Me (prod.violet)", duration: "02:53", file: "/audio/believe-me.wav" },
+                 { id: 2, title: "Alyorra - Believe Me (prod.violet)", duration: "01:55", file: "/audio/believe-me.wav" },
                  { id: 3, title: "Alyorra - Ocean (prod.violet)", duration: "02:20", file: "/audio/ocean.wav" },
                  { id: 4, title: "Alyorra - Winter (prod. bstrxy)", duration: "02:35", file: "/audio/winter.wav" },
                ].map((track) => (
