@@ -29,7 +29,7 @@ export default function Home() {
         </motion.div>
 
         {/* Projects Grid */}
-        <div className="w-full max-w-5xl flex flex-col gap-16 md:gap-24">
+        <div className="w-full max-w-5xl flex flex-col gap-12 md:gap-16">
           
           {/* Hero Image */}
           <motion.div 
@@ -37,21 +37,25 @@ export default function Home() {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="w-[70%] mx-auto relative aspect-[4/3] bg-transparent flex items-center justify-center my-8 md:my-12"
+            className="w-[94%] mx-auto relative aspect-video bg-[#0d0d0d] overflow-hidden flex items-center justify-center"
           >
             <motion.img 
               src={heroImage} 
               alt="Artistic Butterfly" 
-              className="w-full h-full object-contain"
+              className="w-full h-full object-contain opacity-80"
               style={{
-                filter: "drop-shadow(0px 0px 40px rgba(168, 85, 247, 0.4))"
+                maskImage: "radial-gradient(ellipse at center, black 60%, transparent 95%)",
+                WebkitMaskImage: "radial-gradient(ellipse at center, black 60%, transparent 95%)"
               }}
             />
             {/* Box Shadow Overlay for Blended Edges */}
-             <div 
-              className="absolute inset-0 pointer-events-none opacity-60"
+            <div className="absolute inset-0 shadow-[inset_0_0_80px_40px_#0d0d0d] pointer-events-none opacity-80" />
+            
+            {/* Darkened area for butterfly lower body */}
+            <div 
+              className="absolute bottom-[20%] left-1/2 -translate-x-1/2 w-[15%] h-[25%] blur-2xl pointer-events-none opacity-80"
               style={{
-                background: "radial-gradient(circle at center, transparent 30%, black 80%)"
+                background: "radial-gradient(ellipse at center, rgba(0,0,0,0.9) 0%, transparent 70%)"
               }}
             />
           </motion.div>
