@@ -61,9 +61,9 @@ export default function Home() {
             
             {/* Darkened area for butterfly upper wings */}
             <div 
-              className="absolute top-[10%] left-1/2 -translate-x-1/2 w-[60%] h-[30%] blur-3xl pointer-events-none opacity-60"
+              className="absolute top-0 left-1/2 -translate-x-1/2 w-[80%] h-[45%] blur-3xl pointer-events-none opacity-100"
               style={{
-                background: "radial-gradient(ellipse at top, rgba(0,0,0,0.8) 0%, transparent 70%)"
+                background: "linear-gradient(to bottom, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.8) 20%, transparent 100%)"
               }}
             />
           </motion.div>
