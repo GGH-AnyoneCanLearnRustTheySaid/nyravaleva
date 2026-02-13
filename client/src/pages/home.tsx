@@ -130,7 +130,7 @@ export default function Home() {
                         <img 
                           src={characterDemoThumb} 
                           alt="VA Demo Reel Thumbnail" 
-                          className="w-full h-full object-cover opacity-50 group-hover:opacity-40 transition-opacity" 
+                          className="w-full h-full object-cover" 
                         />
                         <div className="absolute inset-0 flex items-center justify-center">
                           <div className="w-12 h-12 border border-white/20 rounded-full flex items-center justify-center backdrop-blur-sm group-hover:scale-110 transition-transform">
@@ -174,7 +174,7 @@ export default function Home() {
                         <img 
                           src={vocalDemoThumb} 
                           alt="Vocal Talent Reel Thumbnail" 
-                          className="w-full h-full object-cover opacity-50 group-hover:opacity-40 transition-opacity" 
+                          className="w-full h-full object-cover" 
                         />
                         <div className="absolute inset-0 flex items-center justify-center">
                           <div className="w-12 h-12 border border-white/20 rounded-full flex items-center justify-center backdrop-blur-sm group-hover:scale-110 transition-transform">
