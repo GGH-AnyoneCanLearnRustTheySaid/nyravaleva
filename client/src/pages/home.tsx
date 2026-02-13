@@ -58,6 +58,14 @@ export default function Home() {
                 background: "radial-gradient(ellipse at center, rgba(0,0,0,0.9) 0%, transparent 70%)"
               }}
             />
+            
+            {/* Darkened area for butterfly upper wings */}
+            <div 
+              className="absolute top-[10%] left-1/2 -translate-x-1/2 w-[60%] h-[30%] blur-3xl pointer-events-none opacity-60"
+              style={{
+                background: "radial-gradient(ellipse at top, rgba(0,0,0,0.8) 0%, transparent 70%)"
+              }}
+            />
           </motion.div>
 
           {/* Bio Text */}
