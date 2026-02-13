@@ -66,6 +66,14 @@ export default function Home() {
                 background: "linear-gradient(to bottom, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.8) 20%, transparent 100%)"
               }}
             />
+
+            {/* Top edge blur/fade to hide visible border */}
+            <div 
+              className="absolute top-0 left-0 w-full h-[10%] pointer-events-none z-10"
+              style={{
+                background: "linear-gradient(to bottom, #0d0d0d 10%, transparent 100%)"
+              }}
+            />
           </motion.div>
 
           {/* Bio Text */}
