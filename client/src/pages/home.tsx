@@ -6,6 +6,7 @@ import heroImage from "@/assets/home-butterfly-v5.png";
 import audioBg from "@/assets/audio-bg.png";
 import demoReelThumb from "@/assets/demo-reel-thumb.png";
 import characterDemoThumb from "@/assets/character-demo-thumb.jpeg";
+import vocalDemoThumb from "@/assets/vocal-demo-thumb.jpeg";
 import { AudioPlayer } from "@/components/ui/AudioPlayer";
 
 export default function Home() {
@@ -171,7 +172,7 @@ export default function Home() {
                     <DialogTrigger asChild>
                       <div className="aspect-video w-full bg-black relative overflow-hidden group cursor-pointer">
                         <img 
-                          src={demoReelThumb} 
+                          src={vocalDemoThumb} 
                           alt="Vocal Talent Reel Thumbnail" 
                           className="w-full h-full object-cover opacity-50 group-hover:opacity-40 transition-opacity" 
                         />
