@@ -37,12 +37,12 @@ export default function Home() {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="w-[78%] mx-auto relative aspect-video bg-[#0d0d0d] overflow-hidden"
+            className="w-[78%] mx-auto relative aspect-video bg-[#0d0d0d] overflow-hidden flex items-center justify-center"
           >
             <motion.img 
               src={heroImage} 
               alt="Artistic Butterfly" 
-              className="w-full h-full object-cover opacity-80"
+              className="w-full h-full object-contain opacity-80"
               style={{
                 maskImage: "radial-gradient(ellipse at center, black 60%, transparent 95%)",
                 WebkitMaskImage: "radial-gradient(ellipse at center, black 60%, transparent 95%)"
