@@ -2,7 +2,7 @@ import { Navbar } from "@/components/layout/Navbar";
 import { motion } from "framer-motion";
 import { Play, Mic } from "lucide-react";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
-import heroImage from "@/assets/home-butterfly-glass-v2.png";
+import heroImage from "@/assets/home-butterfly-glass-v3.png";
 import audioBg from "@/assets/audio-bg.png";
 import demoReelThumb from "@/assets/demo-reel-thumb.png";
 import { AudioPlayer } from "@/components/ui/AudioPlayer";
