@@ -82,71 +82,75 @@ export default function Contact() {
            </div>
         </motion.div>
 
-        {/* Google Form Embed Mockup */}
+        {/* Custom Contact Form (EmailJS Style) */}
         <motion.div 
           initial={{ opacity: 0, x: 20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ delay: 0.2 }}
           className="w-full lg:w-2/3"
         >
-          <div className="w-full h-full min-h-[600px] bg-[#f0ebf8] rounded-lg overflow-hidden relative shadow-xl">
-             {/* Header Strip */}
-             <div className="h-3 bg-[#673ab7] w-full"></div>
-             
-             <div className="p-4 md:p-8 max-w-2xl mx-auto pt-8">
-                {/* Form Header Card */}
-                <div className="bg-white rounded-lg border border-[#dadce0] p-6 mb-4 border-t-[10px] border-t-[#673ab7]">
-                  <h2 className="text-3xl text-black mb-2 font-[Roboto,Arial,sans-serif]">Contact Nyra Vale</h2>
-                  <p className="text-sm text-[#5f6368] font-[Roboto,Arial,sans-serif]">Please fill out this form for inquiries.</p>
-                  <p className="text-xs text-[#d93025] mt-4 font-[Roboto,Arial,sans-serif]">* Required</p>
-                </div>
-
-                {/* Email Field */}
-                <div className="bg-white rounded-lg border border-[#dadce0] p-6 mb-4">
-                  <label className="text-base text-black mb-2 block font-[Roboto,Arial,sans-serif]">Email <span className="text-[#d93025]">*</span></label>
-                  <div className="border-b border-[#dadce0] py-2 w-1/2">
-                    <span className="text-[#5f6368] text-sm">Your email</span>
-                  </div>
-                </div>
-
-                {/* Name Field */}
-                <div className="bg-white rounded-lg border border-[#dadce0] p-6 mb-4">
-                  <label className="text-base text-black mb-2 block font-[Roboto,Arial,sans-serif]">Name <span className="text-[#d93025]">*</span></label>
-                  <div className="border-b border-[#dadce0] py-2 w-1/2">
-                    <span className="text-[#5f6368] text-sm">Your answer</span>
-                  </div>
-                </div>
-
-                {/* Message Field */}
-                <div className="bg-white rounded-lg border border-[#dadce0] p-6 mb-4">
-                  <label className="text-base text-black mb-2 block font-[Roboto,Arial,sans-serif]">Message <span className="text-[#d93025]">*</span></label>
-                  <div className="border-b border-[#dadce0] py-2 w-full">
-                    <span className="text-[#5f6368] text-sm">Your answer</span>
-                  </div>
-                </div>
-
-                {/* Submit Button */}
-                <div className="flex justify-between items-center mt-4">
-                  <button className="bg-[#673ab7] text-white px-6 py-2 rounded text-sm font-medium hover:bg-[#5f35ac]">Submit</button>
-                  <div className="text-xs text-[#5f6368]">Clear form</div>
-                </div>
-
-                {/* Footer */}
-                <div className="mt-8 text-center">
-                   <p className="text-xs text-[#5f6368]">Never submit passwords through Google Forms.</p>
-                   <p className="text-xs text-[#5f6368] mt-2">This content is neither created nor endorsed by Google.</p>
-                   <h3 className="text-lg text-[#5f6368] font-bold mt-2 opacity-50">Google Forms</h3>
-                </div>
+          <form className="bg-neutral-900/30 border border-neutral-800 p-8 md:p-10 space-y-8 backdrop-blur-sm">
+             <div>
+               <h2 className="text-xl md:text-2xl font-display text-white uppercase tracking-widest mb-2">Send a Message</h2>
+               <p className="text-neutral-500 font-sans text-sm">Direct inquiry form</p>
              </div>
 
-             {/* Overlay to indicate this is a preview */}
-             <div className="absolute inset-0 bg-black/40 backdrop-blur-[2px] flex items-center justify-center z-10 opacity-0 hover:opacity-100 transition-opacity cursor-not-allowed">
-               <div className="bg-neutral-900 text-white p-4 rounded border border-neutral-700 max-w-sm text-center">
-                 <p className="font-bold mb-2">Google Forms Preview</p>
-                 <p className="text-sm text-neutral-400">This is how an embedded Google Form would appear. It typically retains the Google branding, white background, and standard styling, which may contrast with your site's dark aesthetic.</p>
+             <div className="space-y-6">
+               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                 <div className="space-y-2">
+                   <label className="text-xs font-display text-neutral-400 uppercase tracking-widest">Name</label>
+                   <input 
+                     type="text" 
+                     placeholder="Your name"
+                     className="w-full bg-black/50 border border-neutral-800 focus:border-neutral-600 text-white px-4 py-3 text-sm font-sans outline-none transition-colors placeholder:text-neutral-700"
+                   />
+                 </div>
+                 <div className="space-y-2">
+                   <label className="text-xs font-display text-neutral-400 uppercase tracking-widest">Email</label>
+                   <input 
+                     type="email" 
+                     placeholder="your@email.com"
+                     className="w-full bg-black/50 border border-neutral-800 focus:border-neutral-600 text-white px-4 py-3 text-sm font-sans outline-none transition-colors placeholder:text-neutral-700"
+                   />
+                 </div>
+               </div>
+
+               <div className="space-y-2">
+                 <label className="text-xs font-display text-neutral-400 uppercase tracking-widest">Subject</label>
+                 <select className="w-full bg-black/50 border border-neutral-800 focus:border-neutral-600 text-white px-4 py-3 text-sm font-sans outline-none transition-colors appearance-none cursor-pointer">
+                   <option>General Inquiry</option>
+                   <option>Voice Over Booking</option>
+                   <option>Music Collaboration</option>
+                   <option>Other</option>
+                 </select>
+               </div>
+
+               <div className="space-y-2">
+                 <label className="text-xs font-display text-neutral-400 uppercase tracking-widest">Message</label>
+                 <textarea 
+                   rows={6}
+                   placeholder="Write your message here..."
+                   className="w-full bg-black/50 border border-neutral-800 focus:border-neutral-600 text-white px-4 py-3 text-sm font-sans outline-none transition-colors resize-none placeholder:text-neutral-700"
+                 />
                </div>
              </div>
-          </div>
+
+             <div className="flex justify-end">
+               <button 
+                 type="button"
+                 onClick={(e) => {
+                   e.preventDefault();
+                   toast({
+                     title: "Demo Form",
+                     description: "This is a visual mockup. To make it work, we'd connect it to EmailJS.",
+                   });
+                 }}
+                 className="bg-white text-black px-8 py-3 text-xs font-bold uppercase tracking-widest hover:bg-neutral-200 transition-colors"
+               >
+                 Send Message
+               </button>
+             </div>
+          </form>
         </motion.div>
 
       </main>
