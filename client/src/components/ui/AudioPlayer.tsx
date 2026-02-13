@@ -21,7 +21,9 @@ export function AudioPlayer({ src, title, className }: AudioPlayerProps) {
     if (!audio) return;
 
     const setAudioData = () => {
-      setDuration(audio.duration);
+      if (audio.duration && !isNaN(audio.duration) && audio.duration !== Infinity) {
+        setDuration(audio.duration);
+      }
     };
 
     const setAudioTime = () => {
@@ -34,12 +36,14 @@ export function AudioPlayer({ src, title, className }: AudioPlayerProps) {
     };
 
     // Events
-    audio.addEventListener('loadeddata', setAudioData);
+    audio.addEventListener('loadedmetadata', setAudioData);
+    audio.addEventListener('durationchange', setAudioData);
     audio.addEventListener('timeupdate', setAudioTime);
     audio.addEventListener('ended', onEnded);
 
     return () => {
-      audio.removeEventListener('loadeddata', setAudioData);
+      audio.removeEventListener('loadedmetadata', setAudioData);
+      audio.removeEventListener('durationchange', setAudioData);
       audio.removeEventListener('timeupdate', setAudioTime);
       audio.removeEventListener('ended', onEnded);
     };
