@@ -6,7 +6,7 @@ import heroImage from "@/assets/home-butterfly-v5.png";
 import audioBg from "@/assets/audio-bg.png";
 import demoReelThumb from "@/assets/demo-reel-thumb.png";
 import characterDemoThumb from "@/assets/character-demo-thumb-v2.jpeg";
-import vocalDemoThumb from "@/assets/vocal-demo-thumb.jpeg";
+import vocalDemoThumb from "@/assets/vocal-demo-thumb-v2.jpeg";
 import { AudioPlayer } from "@/components/ui/AudioPlayer";
 
 export default function Home() {
