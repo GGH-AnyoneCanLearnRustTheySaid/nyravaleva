@@ -57,7 +57,7 @@ export default function Home() {
             className="max-w-3xl mx-auto text-center space-y-6 px-4"
           >
              <p className="text-neutral-400 font-sans italic lowercase text-base md:text-lg leading-relaxed tracking-wide">
-               <span className="capitalize">Nyra Vale</span> is a singer, songwriter, and voice artist from <span className="capitalize">Texas</span> with a simple philosophy: show up, be real, and sing like you mean it. <span className="capitalize">Whether</span> she's in the studio recording original music or voicing characters for digital content, she brings the same thing every time - all of herself.
+               <strong className="text-white not-italic normal-case">Nyra Vale is a singer, songwriter, and voice artist</strong> from <span className="capitalize">Texas</span> with a simple philosophy: show up, be real, and sing like you mean it. <span className="capitalize">Whether</span> she's in the studio recording original music or voicing characters for digital content, she brings the same thing every time - all of herself.
              </p>
           </motion.div>
 
