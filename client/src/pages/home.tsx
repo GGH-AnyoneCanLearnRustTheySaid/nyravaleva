@@ -39,42 +39,12 @@ export default function Home() {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="w-[94%] mx-auto relative aspect-video bg-transparent overflow-hidden flex items-center justify-center -mt-6 md:-mt-8 -mb-12 md:-mb-16"
+            className="w-[94%] mx-auto relative aspect-video bg-transparent flex items-center justify-center -mt-6 md:-mt-8 -mb-12 md:-mb-16"
           >
             <motion.img 
               src={heroImage} 
               alt="Artistic Butterfly" 
               className="w-full h-full object-contain opacity-80"
-              style={{
-                maskImage: "radial-gradient(ellipse at center, black 60%, transparent 95%)",
-                WebkitMaskImage: "radial-gradient(ellipse at center, black 60%, transparent 95%)"
-              }}
-            />
-            {/* Box Shadow Overlay for Blended Edges - Changed to use transparency instead of hard color */}
-            <div className="absolute inset-0 shadow-[inset_0_0_80px_40px_rgba(13,13,13,0.8)] pointer-events-none opacity-80" />
-            
-            {/* Darkened area for butterfly lower body */}
-            <div 
-              className="absolute bottom-[20%] left-1/2 -translate-x-1/2 w-[15%] h-[25%] blur-2xl pointer-events-none opacity-80"
-              style={{
-                background: "radial-gradient(ellipse at center, rgba(13,13,13,0.9) 0%, transparent 70%)"
-              }}
-            />
-            
-            {/* Darkened area for butterfly upper wings */}
-            <div 
-              className="absolute top-0 left-1/2 -translate-x-1/2 w-[80%] h-[45%] blur-3xl pointer-events-none opacity-100"
-              style={{
-                background: "linear-gradient(to bottom, rgba(13,13,13,0.95) 0%, rgba(13,13,13,0.8) 20%, transparent 100%)"
-              }}
-            />
-
-            {/* Top edge blur/fade to hide visible border */}
-            <div 
-              className="absolute top-0 left-0 w-full h-[10%] pointer-events-none z-10"
-              style={{
-                background: "linear-gradient(to bottom, rgba(13,13,13,1) 10%, transparent 100%)"
-              }}
             />
           </motion.div>
 
