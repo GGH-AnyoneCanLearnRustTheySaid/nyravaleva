@@ -1,6 +1,7 @@
 import { Navbar } from "@/components/layout/Navbar";
 import { motion } from "framer-motion";
 import { useToast } from "@/hooks/use-toast";
+import { Copy } from "lucide-react";
 
 export default function Contact() {
   const { toast } = useToast();
@@ -40,7 +41,7 @@ export default function Contact() {
                  className="text-sm text-neutral-400 font-mono mb-4 hover:text-white transition-colors text-left flex items-center gap-2 group"
                >
                  <span>nyravaleva@gmail.com</span>
-                 <span className="opacity-0 group-hover:opacity-100 transition-opacity text-[10px] bg-neutral-800 px-1 rounded">COPY</span>
+                 <Copy className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity text-neutral-400" />
                </button>
                <div className="space-y-1">
                  <p className="text-sm text-neutral-400 font-mono">
