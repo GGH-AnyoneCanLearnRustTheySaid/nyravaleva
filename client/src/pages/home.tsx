@@ -39,7 +39,7 @@ export default function Home() {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="w-[94%] mx-auto relative aspect-video bg-transparent flex items-center justify-center -mt-6 md:-mt-8 -mb-6 md:-mb-8"
+            className="w-[66%] mx-auto relative aspect-video bg-transparent flex items-center justify-center -mt-6 md:-mt-8 -mb-6 md:-mb-8"
           >
             <motion.img 
               src={heroImage} 
