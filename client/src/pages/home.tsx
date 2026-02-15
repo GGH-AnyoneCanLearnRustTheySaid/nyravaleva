@@ -170,7 +170,7 @@ export default function Home() {
                   </Dialog>
                   <div>
                     <h3 className="text-lg font-display text-white tracking-widest uppercase mb-2">VOCAL DEMO</h3>
-                    <p className="text-xs text-neutral-500 font-sans tracking-wide leading-relaxed">Original singing performance for fan musical - bringing melody, emotion, and personality to every role • Trained vocalist, character actor.</p>
+                    <p className="text-xs text-neutral-500 font-sans tracking-wide leading-relaxed">Original singing performance for fan musical - bringing melody, emotion, and personality to every role • Trained vocalist, character voice actor.</p>
                   </div>
                 </motion.div>
             </div>
